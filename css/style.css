@@ -1,0 +1,431 @@
+*,::after,::before{-webkit-box-sizing:inherit;box-sizing:inherit}
+:focus{outline:0}
+::-webkit-input-placeholder{color:inherit;opacity:1;-webkit-transition:opacity .3s;-o-transition:opacity .3s;transition:opacity .3s}
+::-moz-placeholder{color:inherit;opacity:1;-webkit-transition:opacity .3s;-o-transition:opacity .3s;transition:opacity .3s}
+:-ms-input-placeholder{color:inherit;opacity:1;-webkit-transition:opacity .3s;-o-transition:opacity .3s;transition:opacity .3s}
+::-ms-input-placeholder{color:inherit;opacity:1;-webkit-transition:opacity .3s;-o-transition:opacity .3s;transition:opacity .3s}
+::placeholder{color:inherit;opacity:1;-webkit-transition:opacity .3s;-o-transition:opacity .3s;transition:opacity .3s}
+html{-webkit-box-sizing:border-box;box-sizing:border-box}
+body{font-family:'Open Sans',sans-serif;font-size:20px;font-weight:400;line-height:1.2;color:#000;background-color:#fff;-webkit-tap-highlight-color:transparent}
+h1,h2,h3,h4,h5,h6{margin:0;font-size:inherit;font-weight:inherit}
+blockquote,dd,dl,figure,p{margin:0}
+a{color:inherit;text-decoration:none}
+button,input,optgroup,select,textarea{padding:0;margin:0;border:none;border-radius:0;-webkit-box-shadow:none;box-shadow:none;background-color:transparent;font:inherit;color:inherit;letter-spacing:inherit}
+[type=button],[type=reset],[type=submit],button{cursor:pointer;-webkit-appearance:none}
+textarea{resize:none}
+ol,ul{padding:0;margin:0;list-style:none}
+img{display:block;max-width:100%;-webkit-box-sizing:content-box;box-sizing:content-box;height:auto}
+b,strong{font-weight:inherit}
+em,i{font-style:inherit}
+.visually-hidden{position:absolute;z-index:-1;width:0;height:0;padding:0;margin:0;border:none;overflow:hidden;opacity:0}
+.page{position:relative;overflow:hidden;max-width:1920px;width:100%;margin:0 auto}
+.container{max-width:1860px;width:100%;padding-left:0;padding-right:0;margin:0 auto}
+.btn{display:inline-block;
+	-ms-flex-negative:0;
+	flex-shrink:0;
+	height:33px;
+	line-height:31px;
+	max-width:280px;
+	width:100%;
+	padding:0;
+	border:1px solid #007a00;
+	font-size:20px;
+	font-weight:400;
+	text-decoration:none;
+	letter-spacing:-1px;
+	text-align:center;
+	color:#fff;
+	background-color:#007a00;
+	-webkit-transition:.2s linear;
+	-o-transition:.2s linear;
+	transition:.2s linear;
+	white-space:nowrap;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	-ms-touch-action:manipulation;
+	touch-action:manipulation;
+	-webkit-tap-highlight-color:transparent}
+.btn:focus,.btn:hover{color:#007a00;background:#fff}
+.btn--arrow{position:absolute;right:0;bottom:0;max-width:156px;height:43px;line-height:41px;text-align:left;padding-left:13px}
+.btn--arrow::before{content:'';position:absolute;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);right:10px;width:18px;height:12px;background:url(../img/icon-recipe-arrow.png) center no-repeat}
+.header--border{border:2px solid #e8e8e8}
+.header__container{height:160px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.logo{display:block}
+.header__nav{display:-webkit-box;display:-ms-flexbox;display:flex;margin-left:auto;margin-right:200px}
+.nav__link{position:relative;margin-right:58px;font-size:20px;letter-spacing:-1.5px;color:#007a00;text-transform:uppercase;-webkit-transition:opacity .2s;-o-transition:opacity .2s;transition:opacity .2s}
+.nav__link:hover{opacity:.7}
+.nav__link:last-of-type{margin-right:0}
+.nav__link--active::before{content:'';position:absolute;left:0;bottom:0;width:100%;height:2px;background-color:#007a00}
+.header__form{
+/*display: flex to pop-up	*/
+	display:none;
+	margin-left: 30px;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	-ms-flex-direction:column;
+	flex-direction:column}
+.header__input{
+
+	width:280px;
+	height:33px;
+	padding:0 15px;
+	border:1px solid #007a00;
+	letter-spacing:-1px}
+
+
+.header__profile {
+	width: 180px;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display: none;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	-ms-flex-direction:column;
+	flex-direction:column
+
+
+}
+
+.header__profile > span {
+	font-size: 16px;
+	width:280px;
+	height:33px;
+	padding:0 15px;
+
+}
+.header__profile > button {
+	padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: transparent;
+    font: inherit;
+    color: inherit;
+    letter-spacing: inherit;
+    color: #007200;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+
+.login__alternate {
+	text-align: center;
+	display: block;
+	position: absolute;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+
+background: #fff; 
+z-index: 20;}
+.login__alternate span {
+	font-size: 24px;
+	font-weight: 600;
+	padding: 0 10%;
+	width: 100%;
+    display: block;
+    color: #007a00;
+    margin-top: 45%;}
+.login__alternate a {
+	color: #fff;
+    background: #007a00;
+    display: block;
+    margin-top: 20%;
+    height: max-content;
+    margin-right: auto;
+    margin-left: auto;
+ padding: 4px 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    width: max-content;
+
+}
+#login__icon {margin: 0 90px}
+#account__block {position: relative; margin-right: 50px; display: none;}
+.account__username::before{
+	background: url(../img/profile.png ) no-repeat;
+}
+.account__credits::before{
+	background: url(../img/credits.png ) no-repeat;
+}
+.account__credits::before,.account__username::before{
+	content: " ";
+	width: 35px;
+	height: 24px;
+	background-size: contain;
+	display: inline-block;
+	vertical-align: text-top;
+}
+
+
+.header__input::-webkit-input-placeholder{color:#afafaf}
+.header__input::-moz-placeholder{color:#afafaf}
+.header__input:-ms-input-placeholder{color:#afafaf}
+.header__input::-ms-input-placeholder{color:#afafaf}
+.header__input::placeholder{color:#afafaf}
+.header__input:first-of-type{margin-bottom:9px}
+.header__input:last-of-type{margin-bottom:8px}
+.header__btn{max-width:280px}
+.contact{padding-bottom:30px}
+.contact__container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.contact__title{margin-bottom:24px;font-size:30px;text-transform:uppercase;color:#007a00;letter-spacing:-1.5px}
+.contact__form{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;max-width:390px;width:100%;margin-left:266px;margin-right:290px}
+.contact__input{width:100%;padding:0 18px;height:46px;border:1px solid #007a00;margin-bottom:12px}
+.contact__input::-webkit-input-placeholder{color:#afafaf}
+.contact__input::-moz-placeholder{color:#afafaf}
+.contact__input:-ms-input-placeholder{color:#afafaf}
+.contact__input::-ms-input-placeholder{color:#afafaf}
+.contact__input::placeholder{color:#afafaf}
+.contact__textarea{padding:15px 18px;height:140px;margin-bottom:12px;border:1px solid #007a00}
+.contact__textarea::-webkit-input-placeholder{color:#afafaf}
+.contact__textarea::-moz-placeholder{color:#afafaf}
+.contact__textarea:-ms-input-placeholder{color:#afafaf}
+.contact__textarea::-ms-input-placeholder{color:#afafaf}
+.contact__textarea::placeholder{color:#afafaf}
+.contact__btn{height:46px;max-width:none}
+.picture{padding-top:82px;padding-bottom:82px}
+.picture__img{position:relative;width:791px;height:620px;background:center/cover no-repeat #000}
+.picture__bg{position:absolute;left:193px;top:-82px;width:835px;height:784px;border:2px solid #007a00;z-index:-1;padding:47px 52px 14px 53px}
+.picture__bg::before{content:'';position:absolute;width:730px;height:723px;background:url(../img/picture-bg.png) center/cover no-repeat}
+.content__container{max-width:1295px;padding:0 33px}
+.content{padding-top:150px;padding-bottom:70px}
+.content h1{margin-bottom:30px;color:#007a00;font-size:30px;font-weight:400;text-transform:uppercase;letter-spacing:-1.5px}
+.content h2{margin:25px 0;color:#007a00;font-size:30px;font-weight:400;text-transform:uppercase;letter-spacing:-1.5px}
+.content h2:first-child{margin-top:0}
+.content p{margin:25px 0}
+#close__form { position: absolute;
+    top: -15px;
+    right: -40px;
+    color: #007a00;
+    font-size: 30px;
+    transform: rotate(45deg);
+    cursor: pointer; }
+.footer__container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding-bottom:10px}
+.footer__nav{margin-left:auto}
+.footer__bottom{right:30px;bottom:26px}
+.footer__bottom-container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;padding-bottom:26px}
+.footer__bottom-link{margin-right:46px;color:#007a00;letter-spacing:-1px;-webkit-transition:opacity .2s;-o-transition:opacity .2s;transition:opacity .2s}
+.footer__bottom-link:last-of-type{margin-right:0}
+.footer__bottom-link:hover{opacity:.7}
+.login{margin-bottom:60px}
+.login__container,.recipe__container{display:-webkit-box;display:-ms-flexbox;display:flex}
+.login__text-wrap,.recipe__text-wrap{margin-left:190px;margin-top:78px}
+.login__title,.recipe__title{margin-bottom:10px;color:#007a00;font-family:"Shadows Into Light Two",sans-serif;font-size:30px;font-weight:400;text-transform:uppercase}
+.login__text,.recipe__text{margin-bottom:25px}
+.picture--login,.picture--recipe{margin-left:160px;padding-top:79px;padding-bottom:79px}
+.picture--login .picture__img,.picture--recipe .picture__img{width:756px;height:592px}
+.picture--login .picture__bg,.picture--recipe .picture__bg{left:auto;right:185px;top:-79px;width:798px;height:750px;padding:45px 50px 13px}
+.picture--login .picture__bg::before,.picture--recipe .picture__bg::before{width:698px;height:692px;background:url(../img/picture-bg-2.png) center/cover no-repeat}
+.picture__text-wrap{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:relative;width:756px;height:592px;padding:50px;color:#fff;background-color:#007a00}
+.picture__title{font-size:30px;margin-top:40px;margin-bottom:80px;text-align:center}
+.picture__text{font-size:20px;width:100%;text-align:center}
+.login__text-wrap-2{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;margin-left:190px;margin-top:78px}
+.login__title-2,.recipe__title-2{margin-bottom:22px;font-size:30px;color:#007a00;text-transform:uppercase}
+.login__input{max-width:280px;width:100%;height:33px;padding:0 17px;margin-bottom:14px;border:1px solid #007a00}
+.login__input::-webkit-input-placeholder{color:#afafaf}
+.login__input::-moz-placeholder{color:#afafaf}
+.login__input:-ms-input-placeholder{color:#afafaf}
+.login__input::-ms-input-placeholder{color:#afafaf}
+.login__input::placeholder{color:#afafaf}
+.login__btn{margin-bottom:28px}
+.login__text-2{margin-bottom:26px}
+.recipe-card-list{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin:-32.5px -15px 0;width:1419px;-ms-flex-negative:0;flex-shrink:0}
+.recipe-card-list--big{width:1892px}
+.recipe-card{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;max-width:441px;height:552px;width:100%;margin:32.5px 15px}
+.recipe-card__img-wrap{width:100%}
+.recipe-card__img{width:100%;height:301px;-o-object-fit:cover;object-fit:cover}
+.recipe-card__info{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;border:1px solid #007a00;border-top:0;padding:15px 13px 18px;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}
+.recipe-card__title{height:68px;margin-bottom:16px;overflow:hidden;font-family:"Shadows Into Light Two",sans-serif;font-size:30px;text-transform:uppercase;color:#007a00}
+.recipe-card__text{margin-bottom:auto;height:48px;overflow:hidden}
+.recipe-card__kcal{position:relative;display:block;margin-bottom:16px;padding-left:36px;letter-spacing:-1px}
+.recipe-card__kcal::before{content:'';position:absolute;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);left:0;width:26px;height:22px;background:url(../img/icon-recipe-kcal.png) center no-repeat}
+.recipe-card__time{position:relative;display:block;letter-spacing:-1px;padding-left:36px}
+.recipe-card__time::before{content:'';position:absolute;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);left:0;width:26px;height:26px;background:url(../img/icon-recipe-time.png) center no-repeat}
+.sidebar{width:100%;max-width:440px;margin-left:auto}
+.main__section{display:-webkit-box;display:-ms-flexbox;display:flex;margin-bottom:65px}
+.sidebar__input-wrap{position:relative;margin-bottom:40px}
+.sidebar__input{width:100%;height:33px;color:#fff;padding-left:16px;padding-right:40px;background-color:#007a00}
+.sidebar__input-btn{position:absolute;right:14px;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);font-size:0;width:22px;height:22px;background:url(../img/icon-search.png) center no-repeat}
+.sidebar__word-wrap{margin:-7px;padding-bottom:50px}
+.sidebar__word{display:inline-block;height:33px;padding:0 13px;line-height:31px;margin:7px;text-transform:uppercase;border:2px solid #007a00;-webkit-transition:opacity .2s;-o-transition:opacity .2s;transition:opacity .2s}
+.sidebar__word:hover{opacity:.7}
+.main__promo{text-align:center;padding-top:90px;padding-bottom:140px}
+.main__promo-title{font-size:30px;letter-spacing:-1.5px;text-transform:uppercase;color:#007a00;margin-bottom:15px}
+.main__promo-text{position:relative;letter-spacing:-1px;padding-bottom:30px}
+.main__promo-text::before{content:'';position:absolute;bottom:0;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);height:2px;width:81px;background-color:#007a00}
+.main__title{font-size:30px;text-transform:uppercase;letter-spacing:-1.5px;color:#007a00;margin-bottom:60px}
+.article__big{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:1386px;border:1px solid #007a00}
+.article__big p{margin:22px 0}
+.article__big b,.article__big strong{font-weight:700}
+.article__big ul{margin:25px 0}
+.article__big-img{width:100%;-o-object-fit:cover;object-fit:cover}
+.article__big-info{padding:0 18px;border-top:0}
+.article__big .btn--arrow{right:-1px;bottom:-1px}
+.article__big-title{margin:22px 0;font-family:"Shadows Into Light Two",sans-serif;font-size:30px;color:#007a00;text-transform:uppercase}
+.article__big-arrows{display:-webkit-box;display:-ms-flexbox;display:flex;position:absolute;bottom:0;right:0;width:66px;height:43px;background-color:#007a00}
+.article__big-arrow{display:block;height:100%;width:50%;padding-left:10px;padding-right:5px;background:url(../img/icon-recipe-arrow-left.png) center no-repeat}
+.article__big-arrow--right{padding-left:5px;padding-right:10px;background:url(../img/icon-recipe-arrow.png) center no-repeat}
+.article__small{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:440px;height:385px;margin-bottom:33px}
+.article__small:last-of-type{margin-bottom:0}
+.article__small-img-wrap{position:relative;width:100%;height:229px;background-color:#000}
+.article__small-img{width:100%;height:100%;-o-object-fit:cover;object-fit:cover}
+.article__small-info{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;position:relative;padding:20px 15px;border:1px solid #007a00;border-top:0}
+.article__small-info .btn--arrow{right:-1px;bottom:-1px}
+.article__small-title{height:72px;overflow:hidden;font-family:"Shadows Into Light Two",sans-serif;font-size:30px;text-transform:uppercase;color:#007a00}
+.main__recipes-title{margin-bottom:25px}
+.main__text{margin-bottom:56px}
+.slider-wrap{margin-bottom:80px}
+.slider__item{display:none;height:617px;background:center/cover no-repeat #000}
+.slider__item:first-of-type{display:block}
+.slider__item-info{position:relative;width:628px;height:100%;padding:50px 100px;text-align:center;background-color:rgba(255,255,255,.9)}
+.slider__title{position:relative;margin-bottom:100px;font-family:"Shadows Into Light Two",sans-serif;letter-spacing:-1.8px;font-size:36px;padding-bottom:33px;color:#007a00}
+.slider__title::before{content:'';position:absolute;bottom:0;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);height:2px;width:81px;background-color:#007a00}
+.slider__text{max-width:430px;margin:0 auto}
+.slider__pagination{display:-webkit-box;display:-ms-flexbox;display:flex;position:absolute;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);bottom:20px;left:302px;display:-webkit-box;display:-ms-flexbox;display:flex}
+.slider__pagination li{width:10px;height:10px;margin:0 3px;border-radius:50%;border:1px solid #007a00;cursor:pointer;font-size:0;color:transparent}
+.slider__pagination .slick-active{background-color:#007a00}
+.recipe{margin-bottom:250px}
+.recipe__title--big-margin{margin-bottom:30px}
+.recipe__ingredients{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.recipe__word-wrap{padding-bottom:35px}
+.recipe__title-2{font-size:30px;font-weight:700;letter-spacing:-1.5px;text-transform:uppercase;color:#007a00}
+.recipe__ingredients-list{width:453px}
+.recipe__ingredients-item{margin-bottom:17px}
+.recipe__ingredients-list-2{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:282px;border-left:2px solid #007a00}
+.recipe__ingredients-item-2{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-bottom:50px;padding-top:45px;text-align:center}
+.recipe__ingredients-item-2:last-of-type{margin-bottom:0}
+.recipe__ingredients-item-2--first::before{content:'';position:absolute;top:0;left:50%;width:34px;height:34px;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);background:url(../img/icon-ingredients1.png) center no-repeat}
+.recipe__ingredients-item-2--second::before{content:'';position:absolute;top:0;left:50%;width:34px;height:34px;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);background:url(../img/icon-ingredients2.png) center no-repeat}
+.recipe__ingredients-item-2--third::before{content:'';position:absolute;top:0;left:50%;width:34px;height:28px;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);background:url(../img/icon-ingredients3.png) center no-repeat}
+.recipe__ingredients-title{margin-bottom:5px}
+.recipe__ingredients-text{font-weight:700}
+.recipe__bottom-container{display:-webkit-box;display:-ms-flexbox;display:flex;max-width:1580px;margin-top:163px}
+.recipe__bottom-title{margin-bottom:45px}
+.recipe__method{max-width:790px;width:100%;margin-right:154px}
+.recipe__method-list{margin-bottom:50px}
+.recipe__method-item{margin-bottom:12px}
+.recipe__method-item:last-of-type{margin-bottom:0}
+.recipe__nutrition{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.recipe__nutrition-list{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;padding:30px 35px;border:2px solid #007a00}
+.recipe__nutrition-item{display:-webkit-box;display:-ms-flexbox;display:flex;margin-bottom:11px}
+.recipe__nutrition-item:nth-of-type(2){margin-bottom:18px}
+.recipe__nutrition-item:last-of-type{margin-bottom:0}
+.recipe__nutrition-item b{min-width:81px;margin-right:34px;font-weight:700}
+.recipe__nutrition-btn{margin-top:auto;max-width:160px;height:43px;line-height:41px}
+
+
+
+#popUpLimit {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	padding-left: 13px;
+    padding-right: 13px;
+	background: rgba(1,1,1,.8);
+	z-index: 9999;
+	font-family: 'Open Sans', sans-serif;
+	/*display: none;*/
+}
+#popUpLimit .box .content h4 {
+	color: red;
+}
+#popUpLimit .box {
+	position: relative;
+	top: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 720px;
+	background: #fff;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+}
+#popUpLimit .box .img {
+	width: 30%;
+	background: url(../img/pop_up_pic.jpg) no-repeat center center;
+	background-size: cover;
+	border-radius: inherit;
+}
+#popUpLimit .box .content {
+	width: 70%;
+    text-align: center;
+    padding: 40px 20px;
+    color: #1c1c1c;
+    line-height: 1.3;
+}
+#popUpLimit .content > * {
+	margin-bottom: 35px;
+}
+#popUpLimit .content h3 {
+	margin-bottom: 5px;
+	font-size: 23px;
+    color: #007a00;
+    text-transform: uppercase;
+}
+#popUpLimit .content p {
+	font-size: 20px;
+}
+#popUpLimit .content .getPremium {
+	border: .5px solid rgb(65, 128, 0); 
+    background-color: #007a00;
+    /* border-radius: 5px; */
+    max-width: 300px;
+    padding: 5px 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+#popUpLimit .content .close {
+    margin-bottom: 0;
+	border-bottom: 2px solid #007a00;
+    cursor: pointer;
+    color: #007a00;
+
+}
+
+@media all and (max-width: 980px) {
+	main .set {
+		flex-direction: column;
+		align-items: center;
+	}
+	main .set > div,
+	main .set .video2 {
+		width: 80%;
+	}
+	main .set > div p,
+	main .set > div .showRecipe {
+		font-size: 14px;
+	}
+	main .set > div p {
+		max-height: 90px;
+	}
+	#popUpLimit .box {
+		top: 130px;
+	}
+	#popUpLimit .box .content {
+		padding: 25px 16px;
+	}
+	#popUpLimit .content h3 {
+		font-size: 22px;
+	}
+	#popUpLimit .content p {
+		font-size: 15px;
+	}
+	#popUpLimit .content > * {
+		margin-bottom: 20px;
+	}
+	#popUpLimit .content .getPremium {
+		font-size: 13px;
+	}
+}
