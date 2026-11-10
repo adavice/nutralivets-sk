@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/media.css"/>
+    <link rel="stylesheet" href="css/slick.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Shadows+Into+Light+Two&amp;display=swap"/>
+    <title>Článok jede</title>
+  </head>
+  <body>
+    <div class="page">
+      <!-- HEADER-->
+           <header class="header">
+        <div class="header__container container"><a class="logo" href=""><img src="img/logo.svg" alt="logo"/></a>
+           <nav class="header__nav nav">
+             <a class="nav__link" href="">RECEPTY</a>
+             <a class="nav__link nav__link--active" href="">ZDRAVIE A WELLNESS</a>
+             <a class="nav__link" href="">KALKULAČKA</a>
+             <a class="nav__link" href="">ZRUŠIŤ ČLENSTVO</a>
+          </nav>
+       <button id="login__icon">
+            <img src="./img/profile.png">
+       </button>
+       <!-- THE FORM -->
+        <div id="account__block" >
+            <div id="close__form">+</div>
+         <!-- FORM(loged out state) -->
+            <form class="header__form ">
+              <input class="header__input" type="text" placeholder="User"/>
+              <input class="header__input" type="text" placeholder="Password"/>
+              <button class="header__btn btn" type="submit">Prihlásenie</button>
+            </form>
+
+          <!-- FORM(logged in state) -->
+          <form class="header__profile">
+          <span class="account__username">--</span>
+          <span class="account__credits"><span id="user__credits">--</span> Zostávajúce kredity</span>
+          <button class="">Odhlásiť sa</button>
+           </form>
+        </div>
+              
+         
+        </div>
+      </header>
+      <!-- SLIDER-->
+      <div class="slider-wrap">
+        <div class="slider">
+          <div class="slider__item" style="background-image: url('img/slider4.jpg');">
+            <div class="slider__item-info">
+              <h3 class="slider__title">Kokosový olej na vlasy<br> žiariť</h3>
+              <p class="slider__text">Skroťte poletujúce vlasy, dodajte im lesk a uhlaďte ich pomocou tohto luxusného balzamu. Má jemnú kokosovú vôňu a stačí ho použiť len malé množstvo.</p>
+            </div>
+          </div>
+          <div class="slider__item" style="background-image: url('img/slider5.jpg');">
+            <div class="slider__item-info">
+              <h3 class="slider__title">5 tipov, ako začať nový,<br> zdravý život</h3>
+              <p class="slider__text">Prinášame niekoľko odborných tipov, ako začať<br> a ako dotiahnuť svoje ciele do konca</p>
+            </div>
+          </div>
+          <div class="slider__item" style="background-image: url('img/slider6.jpg');">
+            <div class="slider__item-info">
+              <h3 class="slider__title">Máte naponáhlo?<br> Takto si udržíte zdravie</h3>
+              <p class="slider__text">"Vaše zdravie je dôležité, preto nedovoľte,<br> aby vám nabitý rozvrh zabránil<br> starať sa o seba."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- MAIN-->
+      <main class="main">
+        <div class="container">
+          <h2 class="main__title">Populárne články</h2>
+          <section class="main__section main__section--3">
+            <div class="article__big article__big--one"><img class="article__big-img" src="img/article-one-5-1.jpg" alt="article"/>
+              <div class="article__big-info">
+                <h3 class="article__big-title">Tipy na zdravé stravovanie s obmedzeným rozpočtom</h3>
+                <p>
+                  Jednou z výziev, s ktorými sa môžeme stretnúť pri prechode na zdravý životný štýl, je zvažovanie nákladov na stravu. Kvalitné potraviny totiž často nepatria k tým najlacnejším, čo môže sťažovať dodržiavanie zásad zdravého stravovania – obzvlášť vtedy, ak študujete alebo pracujete len na čiastočný úväzok.
+                </p>
+              </div><img class="article__big-img" src="img/article-one-5-2.jpg" alt="article"/>
+              <div class="article__big-info">
+                <h3 class="article__big-title">Čo presne znamená „čisté stravovanie“? </h3>
+                <p>
+                  Zdravé stravovanie znamená konzumáciu minimálne spracovaných, výživných produktov bez prísad – potravín ako čerstvá zelenina a strukoviny, celozrnné obilniny, ovocie a chudé mäso. Bohužiaľ, to, čo nám často môže brániť v kúpe týchto kvalitnejších potravín, je cena – zdravé a kvalitné produkty môžu byť často drahšie ako menej zdravé alternatívy, najmä ak sú označené ako „bio“. Zdravé stravovanie s obmedzeným rozpočtom je však možné! Vyžaduje si to len určitý prieskum, plánovanie dopredu a dodržiavanie jedálnych lístkov.
+                </p>
+                <h3 class="article__big-title">Tipy na zdravé stravovanie s obmedzeným rozpočtom</h3>
+                <p>
+                  Chcete vedieť, ako sa stravovať zdravo a čisto bez toho, aby ste minuli všetky peniaze? Riaďte sa týmito jednoduchými tipmi, ktoré vám pomôžu jesť zdravo a zároveň dodržať váš rozpočet.</p>
+                <h3 class="article__big-title">Tip 1. Vyberte si obchod s potravinami rozumne</h3>
+                <p>
+                  Stalo sa vám už niekedy, že ste vošli do obchodu s potravinami a uvideli tam ten istý tovar, ktorý ste si nedávno kúpili, no za polovičnú cenu? Hoci to môže byť poriadne frustrujúce, dá sa to využiť vo váš prospech. Urobte si malý prieskum – navštívte miestne farmárske trhy, obchody so zdravou výživou, menšie potravinové reťazce či bežné obchody – a porovnajte si v nich ceny. Časom zistíte, kde nájdete najlepšiu kvalitu a najvýhodnejší pomer ceny a hodnoty, vďaka čomu sa môžete rozhodnúť nakupovať potraviny práve tam častejšie.
+                </p>
+                <p>
+                  Dostupné typy obchodov s potravinami sa líšia v závislosti od toho, kde bývate. Platí však, že čím dôkladnejšie si urobíte prieskum predtým, než sa rozhodnete pre konkrétny obchod, ktorý budete pravidelne navštevovať, tým lepšie. Niekedy môže byť obchod, ktorý máte najbližšie či najviac „po ruke“, finančne menej výhodný než iné možnosti, čo vás z dlhodobého hľadiska môže vyjsť drahšie.</p>
+                <h3 class="article__big-title">Tip 2. Zvoľte si lacnejšie značky</h3>
+                <p>
+                  Značky obchodných reťazcov často ponúkajú produkty rovnakej kvality, no môžu byť výrazne lacnejšie. Pamätajte, že vyššia cena nemusí vždy znamenať lepšiu kvalitu! Hoci sa vzhľad či chuť môžu medzi jednotlivými značkami líšiť, v prípade „čistých“ potravín sú tieto rozdiely často minimálne. </p>
+                <h3 class="article__big-title">Tip 3. Na surovinách záleží!</h3>
+                <p>
+                  Vyhľadávajte ovocie a zeleninu, ktoré sú práve v sezóne a dostupné vo vašom regióne – ak sa predávajú mimo svojho prirodzeného obdobia, bývajú zvyčajne drahšie. Vyžaduje si recept suroviny, ktoré vo vašej oblasti práve nie sú v sezóne? Skúste ich nahradiť niečím podobným, čo je práve aktuálne dostupné. Jedlo bude navyše pravdepodobne chutiť lepšie, keďže použité suroviny budú v tej najlepšej kvalite!
+                </p>
+                <h3 class="article__big-title">Tip 4. Nenechajte sa oklamať označeniami „bio“</h3>
+                <p>
+                  Výrobok, ktorý na základe textu či obrázkov na obale pôsobí dojmom, že je „bio“ (ekologický), ním v skutočnosti vôbec nemusí byť! Pri výbere produktov, ktoré sa tvária ako „bio“, buďte preto obozretní. Tento výraz sa totiž niekedy používa len na to, aby výrobok v porovnaní s konkurenciou vyzeral zdravšie, hoci v skutočnosti nemá oficiálny certifikát potvrdzujúci jeho bio pôvod. Získanie takejto certifikácie si vyžaduje komplexný proces, počas ktorého nezávislá certifikačná organizácia dôkladne preveruje danú spoločnosť.
+                </p>
+                <p>
+                  Navyše, niektoré potraviny sa bežne vyrábajú s menším množstvom chemikálií (alebo úplne bez nich), takže kúpa drahšej „bio“ verzie nemusí byť vždy opodstatnená. Kľúčové je zistiť si informácie o spôsobe výroby vašich potravín a pri nakupovaní na to brať ohľad. Vďaka tomu sa môžete 
+                  rozhodnúť pre bio variant vtedy, keď to považujete za potrebné – a nie preto, že vás k tomu nabáda označenie na obale.
+                </p>
+                <h3 class="article__big-title">Tip 5. Väčšie množstvo je najlepšie!</h3>
+                <p>
+                  Ak viete, že nejakú potravinu konzumujete často a má dlhú trvanlivosť, nakupujte ju vo väčšom množstve. Napríklad zdravé oleje alebo obilniny sa oplatí kupovať vo veľkých baleniach, keďže ich pri príprave „čistých“ (zdravých) jedál pravdepodobne využijete často. Keď začnete meniť svoj jedálniček, môže sa zdať, že vaše výdavky na potraviny sú vyššie než zvyčajne. Počas prvých nákupov totiž budete dopĺňať základné suroviny, ktoré vám vydržia dlhý čas. 
+Akonáhle však budete mať zásoby doplnené, zistíte, že nákupy potravín sú lacnejšie a možno už nebudete musieť chodiť do obchodu tak často!
+                </p>
+                <h3 class="article__big-title">Tip 6. Pri príprave jedla postupujte rozumne</h3>
+                <p>
+                  Keď si nakúpite potraviny, určite nechcete mať doma toľko jedla, že sa začne kaziť skôr, než ho stihnete pripraviť. Aby ste tomu predišli, pripravte sa ešte pred nákupom! Skôr než vyrazíte do obchodu, spíšte si zoznam jedál, ktoré budete počas týždňa jesť, a nezabudnite pritom zohľadniť ani žiadne spoločenské udalosti, ktoré vás v danom týždni čakajú. Následne si premyslite, aké suroviny budete na jednotlivé jedlá potrebovať. Ak plánujete jedlá podľa receptov, všímajte si počet porcií a zvážte, či je to pre váš týždenný plán reálne.
+                </p>
+                <p>
+                  Pokiaľ ide o varenie, môžete naplno využiť všetky suroviny a pripraviť si jedlo vopred. Ak recept uvádza, že je určený pre dve osoby, zvyšné porcie si odložte na iný deň. Niekedy sa totiž stáva, že aj keď v recepte znížite počet porcií, aj tak musíte nakúpiť všetky suroviny potrebné na prípravu celého množstva. Namiesto toho, aby vám vznikol odpad, je lepšie pripraviť recept v plnom rozsahu – získate tak jedlo na ďalšie dni, čo vám z dlhodobého hľadiska môže ušetriť peniaze!
+                </p>
+                <h3 class="article__big-title">Tip 7. Ušetrite, čo sa dá</h3>
+                <p>
+                  Niekedy sa plány zmenia a vy zistíte, že nestihnete zjesť všetko ovocie a zeleninu, ktoré ste nakúpili. Nájdite si chvíľku, nakrájajte ich, vložte do uzatvárateľných nádob alebo vreciek a dajte zamraziť. Neskôr ich môžete využiť napríklad do smoothie alebo do jedál pripravovaných na panvici (typu „stir-fry“).
+                </p>
+                <h3 class="article__big-title">Zdravé stravovanie nemusí zruinovať váš rozpočet</h3>
+                <p>
+                  Zdravé stravovanie nemusí znamenať, že miniete všetky svoje ťažko zarobené peniaze na tie najdrahšie bio produkty či superpotraviny. Niekedy stačí len zopár drobných zmien, vďaka ktorým ušetríte nemalé sumy a zároveň si udržíte zdravie.</p>
+              </div>
+              <div class="article__big-arrows"><a class="article__big-arrow" href=""></a><a class="article__big-arrow article__big-arrow--right" href=""></a></div>
+            </div>
+            <div class="sidebar sidebar--article">
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article-one-2-sidebar.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Ako odmerať veľkosť porcií<br> pomocou rúk</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article4.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Stručný sprievodca intuitívnym<br> stravovaním</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article5.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Vodná bilancia, význam<br> správnej hydratácie</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article6.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Ako kúpiť tie najlepšie<br> nohavice na jogu</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article8.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Ako byť viac<br> Disciplinovaný</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article9.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">5 wellness trendov, ktoré si zamilujete<br> Uvidíme sa v roku 2019</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article2.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Kokosový olej na vlasy, ktoré<br> Žiari</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article3.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">5 Tips for Getting Into<br> a Healthy Lifestyle</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <!-- FOOTER-->
+      <footer class="footer">
+        <div class="footer__container container"><a class="logo" href=""><img src="img/logo.svg" alt="logo"/></a>
+          <nav class="footer__nav nav">
+             <a class="nav__link" href="">RECEPTY</a>
+             <a class="nav__link" href="">ZDRAVIE A WELLNESS</a>
+             <a class="nav__link" href="">KALKULAČKA</a>
+             <a class="nav__link" href="">KONTAKTUJTE NÁS</a></nav>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__bottom-container container"><a class="footer__bottom-link" href="">Zásady ochrany osobných údajov</a><a class="footer__bottom-link" href="">Obchodné podmienky</a></div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>

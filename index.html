@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/media.css"/>
+    <link rel="stylesheet" href="css/slick.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Shadows+Into+Light+Two&amp;display=swap"/>
+    <title>Hlavné</title>
+  </head>
+  <body>
+    <div class="page">
+      <!-- HEADER-->
+            <header class="header">
+        <div class="header__container container"><a class="logo" href=""><img src="img/logo.svg" alt="logo"/></a>
+          <nav class="header__nav nav">
+             <a class="nav__link" href="">RECEPTY</a>
+             <a class="nav__link nav__link--active" href="">ZDRAVIE A WELLNESS</a>
+             <a class="nav__link" href="">KALKULAČKA</a>
+             <a class="nav__link" href="">ZRUŠIŤ ČLENSTVO</a>
+          </nav>
+       <button id="login__icon">
+            <img src="./img/profile.png">
+       </button>
+       <!-- THE FORM -->
+        <div id="account__block" >
+            <div id="close__form">+</div>
+         <!-- FORM(loged out state) -->
+            <form class="header__form ">
+              <input class="header__input" type="text" placeholder="User"/>
+              <input class="header__input" type="text" placeholder="Password"/>
+              <button class="header__btn btn" type="submit">Prihlásenie</button>
+            </form>
+
+          <!-- FORM(logged in state) -->
+          <form class="header__profile">
+          <span class="account__username">--</span>
+          <span class="account__credits"><span id="user__credits">--</span> Zostávajúce kredity</span>
+          <button class="">Odhlásiť sa</button>
+           </form>
+        </div>
+              
+         
+        </div>
+      </header>
+      <!-- SLIDER-->
+      <div class="slider-wrap">
+        <div class="slider">
+          <div class="slider__item" style="background-image: url('img/slider1.jpg');">
+            <div class="slider__item-info">
+              <h3 class="slider__title">Krásne, farebné, šťavnaté,<br> sladké figy. </h3>
+              <p class="slider__text">Nájdete tu veľa rôznych druhov špenátu<br> Figové šaláty sa pripravujú z čerstvých fíg,<br> avokádo, opečené vlašské orechy a<br> domáca balzamiková vinaigrette na<br> lahodný jesenný šalát, ktorý vás zasýti.</p>
+            </div>
+          </div>
+          <div class="slider__item" style="background-image: url('img/slider2.jpg');">
+            <div class="slider__item-info">
+              <h3 class="slider__title">Nájdete tu chutné a<br> zdravé varianty na raňajky</h3>
+              <p class="slider__text">Prejdite na recept na avokádový toast s vajíčkom<br> alebo čítajte ďalej a zoznámte sa s našimi tipmi,<br> vrátane toho, ako vybrať avokádo!</p>
+            </div>
+          </div>
+          <div class="slider__item" style="background-image: url('img/slider3.jpg');">
+            <div class="slider__item-info">
+              <h3 class="slider__title">Nápady na zdravé ráno<br> s kašou</h3>
+              <p class="slider__text">Začnite deň miskou ovsenej <br> kaše – sú to sýte raňajky bohaté na vlákninu,<br> ktoré vám dodajú energiu. Ovsené vločky si môžete vylepšiť<br> čerstvým ovocím a orieškami.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- MAIN-->
+      <main class="main">
+        <div class="container">
+          <section class="main__promo">
+            <h2 class="main__promo-title">Chutné a rýchle recepty</h2>
+            <p class="main__promo-text">Viac ako 2500 jedál s jednoduchou prípravou, ktoré špeciálne vytvorili naši šéfkuchári.</p>
+          </section>
+          <section class="main__section main__section--1">
+            <div class="recipe-card-list recipe-card-list--mini">
+              <div class="recipe-card">
+                <div class="recipe-card__img-wrap"><img class="recipe-card__img" src="img/recipe1.jpg" alt="recipe"/></div>
+                <div class="recipe-card__info">
+                  <h3 class="recipe-card__title">Rýchle hovädzie ragú<br> Špagety</h3>
+                  <p class="recipe-card__text">s cuketou a talianskymi koreninami</p><span class="recipe-card__kcal">770 kcal</span><span class="recipe-card__time">30 min</span><a class="btn btn--arrow" href="">Zobraziť recept</a>
+                </div>
+              </div>
+              <div class="recipe-card">
+                <div class="recipe-card__img-wrap"><img class="recipe-card__img" src="img/recipe2.jpg" alt="recipe"/></div>
+                <div class="recipe-card__info">
+                  <h3 class="recipe-card__title">Bravčová klobása so syrom<br> Ploché chleby</h3>
+                  <p class="recipe-card__text">s pečenou paprikou a cibuľou</p><span class="recipe-card__kcal">1000 kcal</span><span class="recipe-card__time">30 min</span><a class="btn btn--arrow" href="">Zobraziť recept</a>
+                </div>
+              </div>
+              <div class="recipe-card">
+                <div class="recipe-card__img-wrap"><img class="recipe-card__img" src="img/recipe3.jpg" alt="recipe"/></div>
+                <div class="recipe-card__info">
+                  <h3 class="recipe-card__title">Bravčová panenka<br> s marhuľovo-balzamikovou glazúrou </h3>
+                  <p class="recipe-card__text">na zázvorovej ryži so sezamovými zelenými fazuľkami</p><span class="recipe-card__kcal">710 kcal</span><span class="recipe-card__time">30 min</span><a class="btn btn--arrow" href="">Zobraziť recept</a>
+                </div>
+              </div>
+              <div class="recipe-card">
+                <div class="recipe-card__img-wrap"><img class="recipe-card__img" src="img/recipe4.jpg" alt="recipe"/></div>
+                <div class="recipe-card__info">
+                  <h3 class="recipe-card__title">Koláče bez rafinovaného cukru,<br> ktoré sa vždy vydaria</h3>
+                  <p class="recipe-card__text">Objavte naše osvedčené recepty na to najlepšie<br> pečenie bez cukru!</p><span class="recipe-card__kcal">770 kcal</span><span class="recipe-card__time">30 min</span><a class="btn btn--arrow" href="">Zobraziť recept</a>
+                </div>
+              </div>
+              <div class="recipe-card">
+                <div class="recipe-card__img-wrap"><img class="recipe-card__img" src="img/recipe5.jpg" alt="recipe"/></div>
+                <div class="recipe-card__info">
+                  <h3 class="recipe-card__title">Zdravé pečené sladké zemiaky<br> a cícer</h3>
+                  <p class="recipe-card__text">Tento zdravý vegetariánsky pokrm pečený na plechu je<br> lahodnou voľbou na večeru.</p><span class="recipe-card__kcal">1000 kcal</span><span class="recipe-card__time">30 min</span><a class="btn btn--arrow" href="">Zobraziť recept</a>
+                </div>
+              </div>
+              <div class="recipe-card">
+                <div class="recipe-card__img-wrap"><img class="recipe-card__img" src="img/recipe6.jpg" alt="recipe"/></div>
+                <div class="recipe-card__info">
+                  <h3 class="recipe-card__title">„Kurča“ bez kurčaťa<br> na spôsob parmigiana</h3>
+                  <p class="recipe-card__text">Vegetariánske kuracie parmigiana, ktoré chutí<br> presne ako originál.</p><span class="recipe-card__kcal">710 kcal</span><span class="recipe-card__time">30 min</span><a class="btn btn--arrow" href="">Zobraziť recept</a>
+                </div>
+              </div>
+            </div>
+            <div class="sidebar sidebar--index">
+              <form class="sidebar__input-wrap">
+                <input class="sidebar__input" type="text" placeholder="Search"/>
+                <button class="sidebar__input-btn">Hľadať</button>
+              </form>
+              <div class="sidebar__word-wrap"><a class="sidebar__word" href="">BEZ LEPKU</a><a class="sidebar__word" href="">NÍZKY CARB</a><a class="sidebar__word" href="">VEGÁNSKE</a></div>
+              <div class="sidebar__word-wrap"><a class="sidebar__word" href="">TALIANSKY</a><a class="sidebar__word" href="">FRANCÚZŠTINA</a><a class="sidebar__word" href="">JAPONSKÝ</a><a class="sidebar__word" href="">Čínština</a><a class="sidebar__word" href="">GRÉCKY</a><a class="sidebar__word" href="">INDIÁNSKY</a><a class="sidebar__word" href="">ÁZIJSKÝ</a></div>
+              <div class="sidebar__word-wrap"><a class="sidebar__word" href="">CESTOVINY</a><a class="sidebar__word" href="">MÄSO</a><a class="sidebar__word" href="">RYŽA</a><a class="sidebar__word" href="">KURČA</a><a class="sidebar__word" href="">ŠALÁT</a><a class="sidebar__word" href="">DEZERT</a><a class="sidebar__word" href="">SYR</a><a class="sidebar__word" href="">LOSOS</a><a class="sidebar__word" href="">PARADAJKA</a></div>
+            </div>
+          </section>
+          <h2 class="main__title">Populárne články</h2>
+          <section class="main__section main__section--2">
+            <div class="article__big"><img class="article__big-img" src="img/article-big1.jpg" alt="article"/>
+              <div class="article__big-info">
+                <h3 class="article__big-title">Ako odmerať veľkosť porcií pomocou rúk</h3>
+                <p>Vyvážená strava neznamená len výber správnych druhov potravín, ale aj ich konzumáciu v správnom množstve. Väčšie porcie<br> môžu viesť k nadmernému príjmu potravy, čo následne môže spôsobiť nárast telesnej hmotnosti. Niekedy však môže byť ťažké určiť, čo predstavuje<br> zdravú porciu. Táto infografika ponúka všeobecné tipy, ktoré vám pomôžu získať predstavu o veľkosti porcií rôznych druhov potravín.<br> Majte však na pamäti, že denná energetická potreba človeka závisí aj od jeho veku, telesnej stavby a úrovne fyzickej aktivity.<br> Preto môžu niektorí ľudia potrebovať väčšie alebo menšie porcie, než aké sú tu odporúčané.</p>
+              </div><a class="btn btn--arrow" href="">Prečítať článok</a>
+            </div>
+            <div class="sidebar sidebar--index-2">
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article10.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Stručný sprievodca intuitívnym stravovaním</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article5.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Vodná bilancia, význam správnej hydratácie</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <h2 class="main__recipes-title main__title">Nové recepty</h2>
+          <p class="main__text">Objavte niektoré z našich najlepších nových nápadov na recepty! Hoci svoje stálice milujeme, vymýšľanie nových receptov je pre nás skutočnou radosťou.<br> Do vašich obľúbených zbierok neustále pridávame nové inšpirácie – či už ide o nápady na raňajky a brunch, jednoduché večere, chutné dezerty a mnoho ďalšieho.<br> Pustite sa do varenia a dobrú chuť! S láskou pre vás a vaše rodiny. </p>
+          <section class="main__section main__section--3">
+            <div class="recipe-card-list recipe-card-list--big">
+              <div class="recipe-card">
+                <div class="recipe-card__img-wrap"><img class="recipe-card__img" src="img/recipe7.jpg" alt="recipe"/></div>
+                <div class="recipe-card__info">
+                  <h3 class="recipe-card__title">Zdravšie kuracie satay<br> pripravované na panvici</h3>
+                  <p class="recipe-card__text">Použitie kokosového mlieka znamená, že toto kura<br> Satay jedlo pripravované metódou stir-fry je stále krémové, no jednoducho dokonalé!</p><span class="recipe-card__kcal">1680 kcal</span><span class="recipe-card__time">1 h 30 min</span><a class="btn btn--arrow" href="">Zobraziť recept</a>
+                </div>
+              </div>
+              <div class="recipe-card">
+                <div class="recipe-card__img-wrap"><img class="recipe-card__img" src="img/recipe8.jpg" alt="recipe"/></div>
+                <div class="recipe-card__info">
+                  <h3 class="recipe-card__title">Losos v červenom kari<br> linguine</h3>
+                  <p class="recipe-card__text">Toto krémové jedlo spája lahodné<br> chute Thajska!</p><span class="recipe-card__kcal">1000 kcal</span><span class="recipe-card__time">30 min</span><a class="btn btn--arrow" href="">Zobraziť recept</a>
+                </div>
+              </div>
+              <div class="recipe-card">
+                <div class="recipe-card__img-wrap"><img class="recipe-card__img" src="img/recipe9.jpg" alt="recipe"/></div>
+                <div class="recipe-card__info">
+                  <h3 class="recipe-card__title">Rýchle cestoviny s lososom a<br> mätovo-citrónovým pestom</h3>
+                  <p class="recipe-card__text">Premeňte tradičné lasagne s týmto<br> 
+recept, v ktorom sa používa grilovaný losos!</p><span class="recipe-card__kcal">710 kcal</span><span class="recipe-card__time">30 min</span><a class="btn btn--arrow" href="">Zobraziť recept</a>
+                </div>
+              </div>
+              <div class="recipe-card">
+                <div class="recipe-card__img-wrap"><img class="recipe-card__img" src="img/recipe10.jpg" alt="recipe"/></div>
+                <div class="recipe-card__info">
+                  <h3 class="recipe-card__title">Krémové kuracie piccata<br> cestoviny</h3>
+                  <p class="recipe-card__text">Táto krémová kuracia piccata so syrom a cestovinami<br> spĺňa všetky požiadavky – a je hotová raz-dva!</p><span class="recipe-card__kcal">710 kcal</span><span class="recipe-card__time">30 min</span><a class="btn btn--arrow" href="">Zobraziť recept</a>
+                </div>
+              </div>
+              <div class="recipe-card">
+                <div class="recipe-card__img-wrap"><img class="recipe-card__img" src="img/recipe11.jpg" alt="recipe"/></div>
+                <div class="recipe-card__info">
+                  <h3 class="recipe-card__title">Zdravý špenátový<br> šalát</h3>
+                  <p class="recipe-card__text">Máme ten najlepší zdravý špenátový šalát.<br> recept pre vás!</p><span class="recipe-card__kcal">380 kcal</span><span class="recipe-card__time">30 min</span><a class="btn btn--arrow" href="">Zobraziť recept</a>
+                </div>
+              </div>
+              <div class="recipe-card">
+                <div class="recipe-card__img-wrap"><img class="recipe-card__img" src="img/recipe12.jpg" alt="recipe"/></div>
+                <div class="recipe-card__info">
+                  <h3 class="recipe-card__title">Zdravé cuketové<br> muffiny</h3>
+                  <p class="recipe-card__text">Tieto muffiny s jablkovým pyré – vláčne, nadýchané a plné vlákniny –<br> máme v našom pravidelnom jedálničku.</p><span class="recipe-card__kcal">1000 kcal</span><span class="recipe-card__time">30 min</span><a class="btn btn--arrow" href="">Zobraziť recept</a>
+                </div>
+              </div>
+              <div class="recipe-card">
+                <div class="recipe-card__img-wrap"><img class="recipe-card__img" src="img/recipe13.jpg" alt="recipe"/></div>
+                <div class="recipe-card__info">
+                  <h3 class="recipe-card__title">Kurča s nízkym obsahom sacharidov<br> Enchilady</h3>
+                  <p class="recipe-card__text">Znie to úplne fantasticky. Je to niečo ako<br> plnené kapustné listy po mexicky!</p><span class="recipe-card__kcal">710 kcal</span><span class="recipe-card__time">30 min</span><a class="btn btn--arrow" href="">Zobraziť recept</a>
+                </div>
+              </div>
+              <div class="recipe-card">
+                <div class="recipe-card__img-wrap"><img class="recipe-card__img" src="img/recipe14.jpg" alt="recipe"/></div>
+                <div class="recipe-card__info">
+                  <h3 class="recipe-card__title">Jogurt z Instant Potu</h3>
+                  <p class="recipe-card__text">Domáci jogurt z hrnca Instant Pot chutí<br> presne tak ako ten z obchodu.</p><span class="recipe-card__kcal">710 kcal</span><span class="recipe-card__time">30 min</span><a class="btn btn--arrow" href="">Zobraziť recept</a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <!-- FOOTER-->
+      <footer class="footer">
+        <div class="footer__container container"><a class="logo" href=""><img src="img/logo.svg" alt="logo"/></a>
+          <nav class="footer__nav nav">
+             <a class="nav__link" href="">RECEPTY</a>
+             <a class="nav__link" href="">ZDRAVIE A WELLNESS</a>
+             <a class="nav__link" href="">KALKULAČKA</a>
+             <a class="nav__link" href="">KONTAKTUJTE NÁS</a></nav>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__bottom-container container"><a class="footer__bottom-link" href="">Zásady ochrany osobných údajov</a><a class="footer__bottom-link" href="">Obchodné podmienky</a></div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Shadows+Into+Light+Two&amp;display=swap"
+    />
+    <title>Zrušiť členstvo</title>
+    <style>
+      .contact__container {
+        gap: 20px;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+
+      .contact__btn {
+        max-width: 200px;
+      }
+
+      @media screen and (max-width: 575px) {
+        .contact__container {
+          flex-direction: column;
+          align-items: center;
+        }
+        .contact__btn {
+          max-width: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <!-- HEADER-->
+      <header class="header">
+        <div class="header__container container">
+          <a class="logo" href=""><img src="img/logo.svg" alt="logo" /></a>
+           <nav class="header__nav nav">
+             <a class="nav__link" href="">RECEPTY</a>
+             <a class="nav__link nav__link--active" href="">ZDRAVIE A WELLNESS</a>
+             <a class="nav__link" href="">KALKULAČKA</a>
+             <a class="nav__link" href="">ZRUŠIŤ ČLENSTVO</a>
+          </nav>
+          <button id="login__icon">
+            <img src="./img/profile.png" />
+          </button>
+          <!-- THE FORM -->
+          <div id="account__block">
+            <div id="close__form">+</div>
+            <!-- FORM(loged out state) -->
+            <form class="header__form">
+              <input class="header__input" type="text" placeholder="User" />
+              <input class="header__input" type="text" placeholder="Password" />
+              <button class="header__btn btn" type="submit">Prihlásenie</button>
+            </form>
+
+            <!-- FORM(logged in state) -->
+            <form class="header__profile">
+              <span class="account__username">--</span>
+              <span class="account__credits"
+                ><span id="user__credits">--</span> Zostávajúce kredity</span
+              >
+              <button class="">Odhlásiť sa</button>
+            </form>
+          </div>
+        </div>
+      </header>
+      <!-- CONTACT-->
+      <section class="login">
+        <div class="container">
+          <h1 class="login__title-2">Automatické zrušenie členstva</h1>
+          <p class="login__text-2">
+            Zrušte svoje predplatné na nutralivets.com
+            <b>BEZPLATNE</b> s využitím našej online služby na zrušenie.
+          </p>
+          <p class="login__text-2">
+            Ak chcete zrušiť svoje predplatné, využite jednu z dvoch nižšie uvedených možností.
+          </p>
+          <p class="login__text-2">
+            Ak máte ešte nejaké otázky, kontaktujte nás, prosím:
+            <b>
+              <a href="mailto:support@nutralivets.com"
+                >support@nutralivets.com</a
+              ></b
+            >
+            <br />
+            OJeden z našich pracovníkov sa vám ozve čo najskôr – zvyčajne sa tak stane do <b>24 hodín</b> (okrem víkendov a štátnych sviatkov).
+          </p>
+          <p class="login__text-2">
+            Naše centrum podpory funguje od pondelka do piatka v čase od 7:00 do 16:00 (podľa časového pásma GMT).
+          </p>
+          <form
+            class="contact__container"
+            id="home-option1-form"
+            role="form"
+            method="post"
+          >
+            <input type="hidden" name="page" value="cancel" /><input
+              type="hidden"
+              name="method"
+              value="1"
+            />
+
+            <input
+              type="email"
+              class="contact__input form-control required input form-input"
+              name="home-option1-email-input"
+              id="home-option1-email-input"
+              placeholder="E-mail"
+              required=""
+            />
+
+            <input
+              type="password"
+              class="contact__input form-control required input form-input"
+              name="home-option1-password-input"
+              id="home-option1-password-input"
+              placeholder="Heslo"
+              required=""
+            />
+
+            <button
+              id="home-option1-submit-btn"
+              type="submit"
+              class="contact__btn btn btn-primary button"
+            >
+              Zrušiť predplatné
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer__container container"><a class="logo" href=""><img src="img/logo.svg" alt="logo"></a>
+          <nav class="footer__nav nav">
+             <a class="nav__link" href="">RECEPTY</a>
+             <a class="nav__link" href="">ZDRAVIE A WELLNESS</a>
+             <a class="nav__link" href="">KALKULAČKA</a>
+             <a class="nav__link" href="">KONTAKTUJTE NÁS</a></nav>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__bottom-container container"><a class="footer__bottom-link" href="">Zásady ochrany osobných údajov</a><a class="footer__bottom-link" href="">Obchodné podmienky</a></div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>

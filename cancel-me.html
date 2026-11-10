@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Shadows+Into+Light+Two&amp;display=swap"
+    />
+    <title>Откажи чланство</title>
+    <style>
+      .contact__container {
+        gap: 20px;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+
+      .contact__btn {
+        max-width: 200px;
+      }
+
+      @media screen and (max-width: 575px) {
+        .contact__container {
+          flex-direction: column;
+          align-items: center;
+        }
+        .contact__btn {
+          max-width: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <!-- HEADER-->
+
+      <header class="header">
+        <div class="header__container container">
+          <a class="logo" href=""><img src="img/logo.svg" alt="logo" /></a>
+          <nav class="header__nav nav">
+            <a class="nav__link" href="">Рецепти</a>
+            <a class="nav__link" href="">Здравље &amp; Веллнесс</a>
+            <a class="nav__link" href="">Калкулатор</a>
+            <a class="nav__link nav__link--active" href="">ОТКАЖИ ЧЛАНСТВО</a>
+          </nav>
+          <button id="login__icon">
+            <img src="./img/profile.png" />
+          </button>
+          <!-- THE FORM -->
+          <div id="account__block">
+            <div id="close__form">+</div>
+            <!-- FORM(loged out state) -->
+            <form class="header__form">
+              <input class="header__input" type="text" placeholder="Корисник" />
+              <input class="header__input" type="text" placeholder="Лозинка" />
+              <button class="header__btn btn" type="submit">Логин</button>
+            </form>
+
+            <!-- FORM(logged in state) -->
+            <form class="header__profile">
+              <span class="account__username">--</span>
+              <span class="account__credits"
+                ><span id="user__credits">--</span> Кредита преостало</span
+              >
+              <button class="">Одјава</button>
+            </form>
+          </div>
+        </div>
+      </header>
+      <!-- CONTACT-->
+      <section class="login">
+        <div class="container">
+          <h1 class="login__title-2">Аутоматски отказ чланства</h1>
+          <p class="login__text-2">
+            Откажите своју претплату на nutralivets.com
+            <b>БЕСПЛАТНО</b> путем наше онлајн услуге отказивања.
+          </p>
+          <p class="login__text-2">
+            За отказивање претплате, користите једну од две опције испод.
+          </p>
+          <p class="login__text-2">
+            Ако имате додатних питања, контактирајте нас:
+            <b>
+              <a href="mailto:support@nutralivets.com"
+                >support@nutralivets.com</a
+              ></b
+            >
+            <br />
+            Један од наших агената ће вам одговорити у најкраћем могућем року –
+            то обично траје <b>24 сата</b> (осим викендом и државним
+            празницима).
+          </p>
+          <p class="login__text-2">
+            Наш центар за подршку ради од понедељка до петка, између 7 и
+            16 часова по GMT временској зони.
+          </p>
+          <p class="login__text-2">
+            За повраћај новца, контактирајте нас на withdrawal.me@silverlines.info.
+          </p>
+          <form
+            class="contact__container"
+            id="home-option1-form"
+            role="form"
+            method="post"
+          >
+            <input type="hidden" name="page" value="cancel" /><input
+              type="hidden"
+              name="method"
+              value="1"
+            />
+
+            <input
+              type="email"
+              class="contact__input form-control required input form-input"
+              name="home-option1-email-input"
+              id="home-option1-email-input"
+              placeholder="Имејл"
+              required=""
+            />
+
+            <input
+              type="password"
+              class="contact__input form-control required input form-input"
+              name="home-option1-password-input"
+              id="home-option1-password-input"
+              placeholder="Лозинка"
+              required=""
+            />
+
+            <button
+              id="home-option1-submit-btn"
+              type="submit"
+              class="contact__btn btn btn-primary button"
+            >
+              Одјава
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer__container container">
+          <a class="logo" href=""><img src="img/logo.svg" alt="logo" /></a>
+          <nav class="footer__nav nav">
+            <a class="nav__link" href="">Рецепти</a>
+            <a class="nav__link" href="">Здравље &amp; Веллнесс</a>
+            <a class="nav__link" href="">Калкулатор</a>
+            <a class="nav__link" href="">Контактирајте нас</a>
+          </nav>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__bottom-container container">
+            <a class="footer__bottom-link" href="">Политика приватности</a
+            ><a class="footer__bottom-link" href="">Услови &amp; Услови</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/media.css"/>
+    <link rel="stylesheet" href="css/slick.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Shadows+Into+Light+Two&amp;display=swap"/>
+    <title>Článok jede</title>
+  </head>
+  <body>
+    <div class="page">
+      <!-- HEADER-->
+            <header class="header">
+        <div class="header__container container"><a class="logo" href=""><img src="img/logo.svg" alt="logo"/></a>
+           <nav class="header__nav nav">
+             <a class="nav__link" href="">RECEPTY</a>
+             <a class="nav__link nav__link--active" href="">ZDRAVIE A WELLNESS</a>
+             <a class="nav__link" href="">KALKULAČKA</a>
+             <a class="nav__link" href="">ZRUŠIŤ ČLENSTVO</a>
+          </nav>
+       <button id="login__icon">
+            <img src="./img/profile.png">
+       </button>
+       <!-- THE FORM -->
+        <div id="account__block" >
+            <div id="close__form">+</div>
+         <!-- FORM(loged out state) -->
+            <form class="header__form ">
+              <input class="header__input" type="text" placeholder="User"/>
+              <input class="header__input" type="text" placeholder="Password"/>
+              <button class="header__btn btn" type="submit">Prihlásenie</button>
+            </form>
+
+          <!-- FORM(logged in state) -->
+          <form class="header__profile">
+          <span class="account__username">--</span>
+          <span class="account__credits"><span id="user__credits">--</span> Zostávajúce kredity</span>
+          <button class="">Odhlásiť sa</button>
+           </form>
+        </div>
+              
+         
+        </div>
+      </header>
+      <!-- SLIDER-->
+      <div class="slider-wrap">
+        <div class="slider">
+          <div class="slider__item" style="background-image: url('img/slider4.jpg');">
+            <div class="slider__item-info">
+              <h3 class="slider__title">Kokosový olej na vlasy<br> žiariť</h3>
+              <p class="slider__text">Skroťte poletujúce vlasy, dodajte im lesk a uhlaďte ich pomocou tohto luxusného balzamu. Má jemnú kokosovú vôňu a stačí ho použiť len malé množstvo.</p>
+            </div>
+          </div>
+          <div class="slider__item" style="background-image: url('img/slider5.jpg');">
+           <div class="slider__item-info">
+              <h3 class="slider__title">5 tipov, ako začať nový,<br> zdravý život</h3>
+              <p class="slider__text">Prinášame niekoľko odborných tipov, ako začať<br> a ako dotiahnuť svoje ciele do konca</p>
+            </div>
+          </div>
+          <div class="slider__item" style="background-image: url('img/slider6.jpg');">
+            <div class="slider__item-info">
+              <h3 class="slider__title">Máte naponáhlo?<br> Takto si udržíte zdravie</h3>
+              <p class="slider__text">"Vaše zdravie je dôležité, preto nedovoľte,<br> aby vám nabitý rozvrh zabránil<br> starať sa o seba."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- MAIN-->
+      <main class="main">
+        <div class="container">
+          <h2 class="main__title">Populárne články</h2>
+          <section class="main__section main__section--3">
+            <div class="article__big article__big--one"><img class="article__big-img" src="img/article-one-3-1.jpg" alt="article"/>
+              <div class="article__big-info">
+                <h3 class="article__big-title">Vodná bilancia, význam správnej hydratácie</h3>
+                <p>
+                  Voda je nevyhnutná pre život a udržiavanie hydratácie je dôležité pre fyzický aj duševný výkon. Ľudské telo je z veľkej časti tvorené vodou. Obsah vody v tele s vekom klesá – od približne 75 % u dojčiat až po 60 % u dospelých. Hoci bez jedla dokážeme prežiť až 50 dní, 
+                  bez vody prežijeme len niekoľko dní, a to aj v chladnom podnebí. Ľudia zvyčajne pijú dostatok vody, no pre určité skupiny obyvateľstva, 
+                  napríklad pre starších ľudí, alebo počas cvičenia, sa môže príjem tekutín stať kritickým faktorom.
+                </p>
+              </div><img class="article__big-img" src="img/article-one-3-2.jpg" alt="article"/>
+              <div class="article__big-info">
+                <h3 class="article__big-title">Denné straty vody</h3>
+                <p>
+                  Voda z nášho tela neustále uniká cez pokožku a pri dýchaní, pričom ide o približne 700 ml denne. Ďalších 100 ml strácame stolicou, približne 1,5 litra močom a 200 ml bežným potením. Aj pri bežnom živote a dýchaní v miernom klimatickom pásme je teda potrebný príjem približne 2,5 litra tekutín denne. 
+                  Fyzická aktivita a zvýšená teplota prostredia vedú k intenzívnejšiemu poteniu, väčším stratám vody, a tým aj k vyššej potrebe tekutín. Výrazne vyššie straty vody nastávajú aj počas choroby či hnačky.
+                </p>
+                <p><b>Účinky dehydratácie.</b> Dehydratácia môže spôsobiť bolesti hlavy, únavu a stratu sústredenia. Tento problém súvisí najmä so starnutím, keďže starší ľudia sú menej citliví na miernu dehydratáciu, pijú menej tekutín a ich rehydratácia trvá dlhšie. K zhoršeniu mentálnej výkonnosti 
+                  môže dôjsť aj u mladších dospelých, ktorí sú mierne dehydratovaní. Deti strácajú viac vody potením, keď sa ich telo snaží ochladiť, preto je dôležité 
+                  dbať na to, aby v horúcom počasí pili dostatok tekutín.<br>
+                  <b>Prijímanie dostatočného množstva tekutín na udržanie hydratácie.</b> Mali by sme vypiť toľko, aby sme vykompenzovali straty vody. Metabolické procesy v našom tele vytvárajú 
+                  približne 250 ml a ďalších 750 ml získavame zo stravy. Zostáva teda 1,5 litra, ktorý musíme prijať vo forme nápojov. K celkovému množstvu potrebnému na hydratáciu môžu prispieť všetky nápoje obsahujúce vodu – vrátane ovocných štiav, nealkoholických nápojov, čaju, kávy, slabších alkoholických nápojov (napríklad piva) či samotnej čistej vody. Ukázalo sa, že keď je potreba tekutín vysoká, dôležitú úlohu zohráva aj to, či nám nápoj chutí. Štúdie tiež preukázali, že kofeín v množstve, ktoré sa bežne nachádza v šálke kávy, čaju alebo v kolovom nápoji, nemá dehydratačné účinky. Odborníci sa preto zhodujú, že bežné nápoje s obsahom kofeínu môžu prispieť k celkovému dennému príjmu tekutín. Naopak, nápoje s obsahom alkoholu 10 % a viac – napríklad väčšina druhov vína – vedú k čistým stratám tekutín z organizmu.
+                </p>
+                <h3 class="article__big-title">Čo sa deje, keď cvičíme v horúcom podnebí?</h3>
+                <p>
+                  Počas cvičenia sa naše telo ochladzuje odparovaním tekutiny z pokožky vo forme potu, preto musíme prijímať viac tekutín, aby sme predišli dehydratácii. V chladnom alebo miernom podnebí mladí ľudia často dokážu zniesť stratu telesnej hmotnosti vo forme vody v objeme 2 % bez toho, aby utrpela ich fyzická výkonnosť; v horúcom prostredí však takáto strata tekutín výkonnosť zhoršuje a môže viesť k zdravotným problémom spôsobeným teplom. Strata presahujúca 5 % telesnej hmotnosti môže znížiť pracovnú kapacitu približne o 30 %. Viaceré štúdie preukázali, že udržiavanie hydratácie pred vytrvalostným cvičením a počas neho účinne zlepšuje výkonnosť v rôznych podmienkach.
+                </p>
+                <h3 class="article__big-title">Soľ stimuluje vstrebávanie vody a napomáha jej zadržiavaniu počas cvičenia a po ňom.</h3>
+                <p>
+                  Pridanie sodíka (soli) do nápojov stimuluje vstrebávanie sacharidov, čo zvyšuje príjem vody. Doplnenie soli stratenej potom pomáha udržiavať objem krvi. Ak sa počas a po vytrvalostnom cvičení v horúčave vypije veľké množstvo samotnej vody, môže dôjsť k zriedeniu telesných tekutín čo vedie k veľkým stratám vody močom. To znamená, že hydratácia sa neudrží a nízke hladiny sodíka môžu spôsobiť kŕče z tepla a vyčerpanie. Aby sa tomu predišlo, nápoje by mali obsahovať sodík (ako športové nápoje, ktoré obsahujú množstvá podobné ako ľudské telesné tekutiny), alebo by sa voda mala piť s jedlom.
+                </p>
+                <h3 class="article__big-title">Cesta k lepšej pohode</h3>
+                <p>
+                  Mali by ste denne piť vodu. Väčšina ľudí sa už stretla s odporúčaním, že by mali denne vypiť 6 až 8 pohárov vody (každý s objemom približne 240 ml). Je to rozumný cieľ. Rôzni ľudia však na udržanie hydratácie potrebujú rôzne množstvo vody. Väčšina zdravých ľudí si dokáže udržať dostatočnú hydratáciu tým, že pije vodu 
+                  a iné tekutiny vždy, keď pocíti smäd. Niektorým ľuďom môže stačiť menej ako 8 pohárov, zatiaľ čo iní ich môžu denne potrebovať viac než 8. 
+                  Ak máte obavy, že nepijete dostatok vody, skontrolujte svoj moč. Ak je zvyčajne bezfarebný alebo svetložltý, ste 
+                  dostatočne hydratovaní. Ak má však tmavožltú alebo jantárovú farbu, môžete byť dehydrovaní.
+                </p>
+                <p>
+                  Voda je na udržanie hydratácie najlepšia. K hydratácii však môžu prispieť aj iné nápoje a potraviny. Niektoré z nich však môžu do vášho jedálnička pridať kalórie navyše vo forme cukru. Ovocné a zeleninové šťavy, mlieko či bylinkové čaje zvyšujú celkové množstvo vody, ktoré denne prijmete. K dennému príjmu tekutín môžu prispieť aj nápoje s obsahom kofeínu (napríklad káva, čaj či sladené sýtené nápoje). Pre väčšinu ľudí nie je mierne množstvo kofeínu (200 až 300 miligramov) škodlivé. 
+Toto množstvo zodpovedá približne 2 až 4 šálkam kávy (s objemom 8 uncí, čo je asi 240 ml). Napriek tomu je vhodné konzumáciu nápojov s obsahom kofeínu obmedziť. U niektorých ľudí môže kofeín spôsobiť častejšie močenie, prípadne pocity úzkosti či nervozity.
+                </p>
+                <p>Vodu možno nájsť aj v ovocí a zelenine (napríklad v melóne, paradajkách a šaláte) a v polievkových vývaroch.</p>
+                <p>
+                  Športové nápoje môžu byť užitočné, ak plánujete vykonávať fyzickú aktivitu s vyššou než bežnou intenzitou po dobu dlhšiu ako hodinu. Obsahujú sacharidy a elektrolyty, ktoré môžu zvýšiť vašu energiu a pomáhajú telu vstrebávať vodu. Niektoré športové nápoje však majú vysoký obsah kalórií pochádzajúcich z pridaného cukru.
+                  Môžu tiež obsahovať veľké množstvo sodíka (soli). Skontrolujte si na etikete veľkosť jednej porcie; jedna fľaša zvyčajne obsahuje viac než jednu porciu. Niektoré 
+                  športové nápoje obsahujú aj kofeín. Pamätajte, že bezpečné denné množstvo kofeínu sa pohybuje v rozmedzí 200 až 300 mg (miligramov).
+                </p>
+                <p>
+                  Energetické nápoje nie sú to isté čo športové nápoje. Energetické nápoje zvyčajne obsahujú veľké množstvo kofeínu. Okrem toho obsahujú zložky, ktoré organizmus nadmerne stimulujú (guarana, ženšen alebo taurín). Sú to látky, ktoré telo nepotrebuje. Väčšina týchto nápojov má tiež vysoký obsah pridaného cukru. 
+Podľa lekárov by deti a dospievajúci nemali konzumovať energetické nápoje.
+                </p>
+                <p>Ak je pre vás ťažké dodržiavať pitný režim, tu je niekoľko tipov, ktoré vám môžu pomôcť:</p>
+                <ul>
+                  <li>- Majte počas dňa pri sebe fľašu s vodou. Aby ste ušetrili, noste so sebou opakovane použiteľnú fľašu a napĺňajte ju vodou z vodovodu.</li>
+                  <li>- Ak vám nechutí čistá voda, skúste si do nápoja pridať plátok citróna alebo limetky.</li>
+                  <li>- Pite vodu pred tréningom, počas neho aj po ňom.</li>
+                  <li>- Keď pociťujete hlad, napite sa vody. Smäd sa často zamieňa s hladom. Skutočný hlad však pitím vody nezaženiete. Pitie vody môže byť tiež prínosom pri zdravom chudnutí. Niektoré výskumy naznačujú, že voda vám môže pomôcť navodiť pocit sýtosti.</li>
+                  <li>- Ak máte problém spomenúť si na pitie vody, pite podľa rozvrhu. Vodu pite napríklad hneď po prebudení, počas raňajok, obeda a večere, a tiež pred spaním. Prípadne si dajte malý pohár vody na začiatku každej hodiny.</li>
+                  <li>- Keď idete do reštaurácie, pite vodu. Udrží vás hydratovaných a je zadarmo.</li>
+                </ul>
+                <p>
+                  Nečakajte, kým spozorujete príznaky dehydratácie, a začnite konať skôr. Dehydratácii aktívne predchádzajte tým, že budete piť dostatok vody. Niektorí ľudia sú vystavení vyššiemu riziku dehydratácie – patria sem napríklad tí, ktorí príliš dlho vykonávajú intenzívnu fyzickú aktivitu (alebo cvičia v horúcom počasí), trpia určitými zdravotnými ťažkosťami (obličkové kamene, infekcia močového mechúra), sú chorí (horúčka, vracanie, hnačka), sú tehotné alebo dojčia, snažia sa schudnúť, prípadne počas dňa nemajú možnosť prijať dostatok tekutín. Vyššiemu riziku sú vystavení aj starší ľudia. S pribúdajúcim vekom totiž mozog nemusí byť schopný dehydratáciu rozpoznať – nevysiela signály, ktoré by vyvolali pocit smädu.
+                </p>
+                <p>
+                  Voda tvorí viac ako polovicu vašej telesnej hmotnosti. Vodu strácate každý deň pri návšteve toalety, potením, a dokonca aj dýchaním. K rýchlejšej strate vody dochádza počas veľmi horúceho počasia, pri fyzickej aktivite alebo v prípade horúčky. K prudkej strate vody môže viesť aj vracanie či hnačka. Ak stratenú vodu nedoplníte, môže dôjsť k dehydratácii.
+                </p>
+              </div>
+              <div class="article__big-arrows"><a class="article__big-arrow" href=""></a><a class="article__big-arrow article__big-arrow--right" href=""></a></div>
+            </div>
+            <div class="sidebar sidebar--article">
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article-one-2-sidebar.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Ako odmerať veľkosť porcií<br> pomocou rúk</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article4.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Stručný sprievodca intuitívnym<br> stravovaním</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article6.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Ako kúpiť to najlepšie<br> Nohavice na jogu</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article7.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Tipy na zdravé stravovanie<br> s obmedzeným rozpočtom</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article8.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Ako byť viac<br> Disciplinovaný</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article9.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">5 wellness trendov, ktoré si zamilujete<br> Uvidíme sa v roku 2019</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article2.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Kokosový olej na vlasy, ktoré<br> Žiari</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article3.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">5 Tips for Getting Into<br> a Healthy Lifestyle</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <!-- FOOTER-->
+      <footer class="footer">
+        <div class="footer__container container"><a class="logo" href=""><img src="img/logo.svg" alt="logo"/></a>
+          <nav class="footer__nav nav">
+             <a class="nav__link" href="">RECEPTY</a>
+             <a class="nav__link" href="">ZDRAVIE A WELLNESS</a>
+             <a class="nav__link" href="">KALKULAČKA</a>
+             <a class="nav__link" href="">KONTAKTUJTE NÁS</a></nav>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__bottom-container container"><a class="footer__bottom-link" href="">Zásady ochrany osobných údajov</a><a class="footer__bottom-link" href="">Obchodné podmienky</a></div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>

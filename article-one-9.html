@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/media.css"/>
+    <link rel="stylesheet" href="css/slick.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Shadows+Into+Light+Two&amp;display=swap"/>
+    <title>Článok jeden</title>
+  </head>
+  <body>
+    <div class="page">
+      <!-- HEADER-->
+          <header class="header">
+        <div class="header__container container"><a class="logo" href=""><img src="img/logo.svg" alt="logo"/></a>
+          <nav class="header__nav nav">
+             <a class="nav__link" href="">RECEPTY</a>
+             <a class="nav__link nav__link--active" href="">ZDRAVIE A WELLNESS</a>
+             <a class="nav__link" href="">KALKULAČKA</a>
+             <a class="nav__link" href="">ZRUŠIŤ ČLENSTVO</a>
+          </nav>
+       <button id="login__icon">
+            <img src="./img/profile.png">
+       </button>
+       <!-- THE FORM -->
+        <div id="account__block" >
+            <div id="close__form">+</div>
+         <!-- FORM(loged out state) -->
+            <form class="header__form ">
+              <input class="header__input" type="text" placeholder="User"/>
+              <input class="header__input" type="text" placeholder="Password"/>
+              <button class="header__btn btn" type="submit">Prihlásenie</button>
+            </form>
+
+          <!-- FORM(logged in state) -->
+          <form class="header__profile">
+          <span class="account__username">--</span>
+          <span class="account__credits"><span id="user__credits">--</span> Zostávajúce kredity</span>
+          <button class="">Odhlásiť sa</button>
+           </form>
+        </div>
+              
+         
+        </div>
+      </header>
+      <!-- SLIDER-->
+      <div class="slider-wrap">
+        <div class="slider">
+          <div class="slider__item" style="background-image: url('img/slider4.jpg');">
+            <div class="slider__item-info">
+              <h3 class="slider__title">Kokosový olej na vlasy<br> žiariť</h3>
+              <p class="slider__text">Skroťte poletujúce vlasy, dodajte im lesk a uhlaďte ich pomocou tohto luxusného balzamu. Má jemnú kokosovú vôňu a stačí ho použiť len malé množstvo.
+</p>
+            </div>
+          </div>
+          <div class="slider__item" style="background-image: url('img/slider5.jpg');">
+            <div class="slider__item-info">
+              <h3 class="slider__title">5 tipov, ako začať nový,<br> zdravý život</h3>
+              <p class="slider__text">Prinášame niekoľko odborných tipov, ako začať<br> a ako dotiahnuť svoje ciele do konca</p>
+            </div>
+          </div>
+          <div class="slider__item" style="background-image: url('img/slider6.jpg');">
+            <div class="slider__item-info">
+              <h3 class="slider__title">Máte naponáhlo?<br> Takto si udržíte zdravie</h3>
+              <p class="slider__text">"Vaše zdravie je dôležité, preto nedovoľte,<br> aby vám nabitý rozvrh zabránil<br> starať sa o seba."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- MAIN-->
+      <main class="main">
+        <div class="container">
+          <h2 class="main__title">Populárne články</h2>
+          <section class="main__section main__section--3">
+            <div class="article__big article__big--one"><img class="article__big-img" src="img/article-one-9-1.jpg" alt="article"/>
+              <div class="article__big-info">
+                <h3 class="article__big-title">5 tipov, ako začať so zdravým životným štýlom</h3>
+                <p>
+                  Zdravý životný štýl je taký, ktorý pomáha udržiavať a zlepšovať vaše zdravie a celkovú pohodu. Existuje mnoho spôsobov, ako viesť zdravý životný štýl – napríklad zdravé stravovanie, fyzická aktivita, udržiavanie zdravej telesnej hmotnosti či zvládanie stresu. Zdravý životný štýl však nie je len o zdravom stravovaní a cvičení; zahŕňa aj starostlivosť o „celého človeka“ – o vašu fyzickú, duševnú, emocionálnu a duchovnú pohodu. Znamená to teda starať sa o seba zvnútra aj zvonku.
+                </p>
+                <h3 class="article__big-title">AKO VIESŤ ZDRAVÝ ŽIVOTNÝ ŠTÝL</h3>
+                <p>
+                  Hoci existuje mnoho bežných spôsobov, ako viesť zdravý životný štýl, jeho konkrétna podoba je u každého človeka iná a pre každého znamená niečo trochu odlišné. Bez ohľadu na to, akú cestu si zvolíte, zdravý životný štýl je kľúčovým prvkom prevencie ochorení, 
+                  celkovej pohody a dlhovekosti. Ak venujete pozornosť svojmu stravovaniu, fyzickej aktivite a miere stresu, dokážete efektívne vyvážiť všetky aspekty svojho života a 
+                  starostlivosť o seba ako celok. Nižšie uvádzame 10 dôležitých krokov, ktoré vám pomôžu viesť zdravý životný štýl:
+                </p>
+                <h3 class="article__big-title">1. Stravujte sa vyvážene</h3>
+                <p>
+                  Vyvážená strava nemusí byť nudná. Pokiaľ prijímate dostatočné množstvo bielkovín, sacharidov, vitamínov, minerálov a tukov, kúsok čokoládovej torty, na ktorý máte práve chuť, by vám nemal príliš uškodiť. Vychutnávajte si jedlo, dôkladne ho požujte a dbajte na pestrosť stravy – 
+                  zahrňte do nej napríklad päť porcií ovocia alebo zeleniny denne. Nadmerná konzumácia spracovaných potravín či sladkostí môže spôsobiť, že sa budete cítiť malátni.
+                </p>
+                <p><b>Pite viac vody. </b> Väčšina z nás denne nevypije dostatok vody. Voda je nevyhnutná pre správne fungovanie nášho tela. Vedeli ste, že viac ako 60 % nášho tela tvorí voda? Voda je potrebná na zabezpečenie telesných funkcií, odstraňovanie odpadových látok a rozvádzanie živín a kyslíka po celom tele. Keďže 
+                  vodu denne strácame močením, vyprázdňovaním, potením a dýchaním, musíme jej zásoby dopĺňať. Keďže strava 
+                  pokrýva približne 20 % nášho príjmu tekutín, znamená to, že na udržanie hydratácie by sme mali denne vypiť asi 8 až 10 pohárov vody. Jedným zo spôsobov, ako zistiť, či ste 
+                  dostatočne hydratovaní, je pohľad na moč – mal by byť bezfarebný alebo mierne žltý. Ak to tak nie je, neprijímate dostatok vody! Medzi ďalšie príznaky patrí: suché pery, sucho v ústach 
+                  a zriedkavé močenie.
+
+                </p>
+                <p><b>Jedzte viac ovocia a zeleniny.</b> Ovocie obsahuje množstvo vitamínov a minerálov. Vitamíny a minerály by ste mali v čo najväčšej miere získavať z každodennej stravy. Potešte svoje chuťové poháriky týmto výživným ovocím: vodný melón, marhule, avokádo (áno, avokádo je technicky ovocie!), 
+                  jablká, cukrový melón, grapefruit, kivi, guava, papája, jahody. Podobne ako ovocie, aj zelenina je dôležitá pre dobré zdravie. Odborníci odporúčajú konzumovať 5 až 9 
+                  porcií ovocia a zeleniny denne, čo však môže byť niekedy náročné. Kedykoľvek je to možné, zaraďte do svojho jedálnička potraviny, ako sú červená fazuľa, 
+                  čierna fazuľa, špargľa, dlhé fazuľové struky, zelené fazuľky a mrkva. Zamyslite sa nad svojou obľúbenou zeleninou a nad tým, ako jej do každodennej stravy zaradiť viac; vyberajte si pritom potraviny s výraznými farbami. 
+                  Farebné ovocie a zelenina prospievajú zdraviu, pretože z tela odstraňujú látky, ktoré poškodzujú naše bunky. Doprajte si preto ovocie a zeleninu rôznych farieb: biele (banány, huby), žlté (ananás, 
+                  mango), oranžové (pomaranče, papája), červené (jablká, jahody, paradajky, vodný melón), zelené (guava, avokádo, uhorky, šalát, zeler), 
+                  fialové/modré (černice, baklažán, sušené slivky).
+                </p>
+                <h3 class="article__big-title">2. Nájdite si čas na oddych</h3>
+                <p>
+                  Relaxácia je pre zdravú myseľ veľmi dôležitá. Nech už si zvolíte akýkoľvek spôsob oddychu – či už ide o hlboké dýchanie, jogu, rybárčenie, kúpeľ alebo čítanie knihy – skúste si, ak sa dá, dopriať hodinu relaxu denne. Psychické vyčerpanie môže viesť k stresu, depresii a úzkostným poruchám. Dnešný životný štýl býva často hektický – keď práve nepracujete, naháňate sa okolo detí, pobehujete po obchode s potravinami alebo robíte niečo iné. Oddýchnite si! Zhlboka dýchajte. Aj pätnásť minút je lepších než nič, no skúste si na to vyhradiť celú hodinu denne.
+ 
+                </p>
+                <p><b>Zámerne zhlboka dýchaj.</b> Kyslík je životne dôležitý zdroj života. Možno viete, ako dýchať, no dýchate správne? Väčšina z nás nedýcha správne – dýchame len plytko a využívame pritom iba tretinu kapacity svojich pľúc. Pri plnom nádychu sa pľúca úplne naplnia, brušná stena sa vyklenie a ramená zostávajú takmer nehybné. Hlboké dýchanie prináša mnohé výhody, medzi ktoré patrí zníženie stresu a krvného tlaku, posilnenie brušných a črevných svalov, ako aj úľava od celkových telesných bolestí. Hlboké dýchanie tiež podporuje lepšie prekrvenie, pomáha pri vyplavovaní toxínov z tela a prispieva ku kvalitnejšiemu spánku.
+                </p>
+              </div><img class="article__big-img" src="img/article-one-9-2.jpg" alt="article"/>
+              <div class="article__big-info">
+                <h3 class="article__big-title">3. Pohni sa!</h3>
+                <p>
+                  Neexistuje žiadna výhovorka, prečo necvičiť, pretože sa skutočne nájde niečo pre každého. Nie každý má rád behanie na bežeckom páse alebo dvíhanie činiek v posilňovni, no akákoľvek aktivita, pri ktorej sa vám zrýchli tep, predstavuje dobrý kardiovaskulárny tréning. Čo tak zahrať si tenis, ísť si zaplávať s priateľom, prípadne začať so sebaobranou či bojovým umením? Ak vám nenapadá nič lepšie, vybehnite a zbehnite párkrát po schodoch. Cítite sa už lepšie? Pri cvičení sa uvoľňujú endorfíny, ktoré vám zlepšia náladu.
+                  <p><b>Často meditujte.</b> Meditácia upokojuje myseľ a prináša pokoj duši. Pomôže vám tiež lepšie zvládať stres vo vašom živote.</p>
+                  <p><b>Cvičte pravidelne.</b> Ak môžete, cvičte nielen párkrát do týždňa, ale každý deň. Pohyb je kľúčom k zdravému životu. Každodenné cvičenie môže mnohými spôsobmi zlepšiť vaše zdravie. Môže prispieť k dlhšiemu životu, znížiť riziko ochorení, pomôcť zvýšiť hustotu kostí a podporiť chudnutie. Jednoduchým krokom – najmä na kratšie vzdialenosti – je uprednostniť chôdzu pred jazdou autom, mestskou dopravou či inými dopravnými prostriedkami. Namiesto výťahu môžete použiť schody. Vyberte si také pohybové aktivity, ktoré vás bavia a dajú sa ľahko vykonávať doma alebo vonku. Keď vás zvolené fyzické aktivity tešia, je pravdepodobnejšie, že pri nich vydržíte a budete sa im venovať prirodzene a s radosťou. Cvičenie je o upevňovaní zdravia a zároveň o zábave. Okrem toho, striedanie rôznych druhov cvičení zaistí, že vás táto činnosť neprestane baviť.</p>
+                  </p>
+                </p>
+                <h3 class="article__big-title">4. Obmedzte fajčenie a pitie</h3>
+                <p>
+                  Stretli ste už niekedy fajčiara, ktorý je rád, že začal fajčiť? Ani ja nie. Je to tá vôbec najničivejšia vec, akú môžete svojmu telu urobiť. Konzumácia alkoholu môže byť škodlivá, ak to s ním preháňate alebo pijete nárazovo, no ako pri väčšine vecí, kľúčom je striedmosť. Dokonca bolo preukázané, že pohár červeného vína prospieva srdcu. Príliš veľké množstvo však môže mať na vaše zdravie zničujúce následky. Fajčenie výrazne zvyšuje riziko vzniku rakoviny pľúc, obličiek či pažeráka, infarktu a ďalších ochorení. Ani fajčenie „ľahkých“ (light) cigariet neznižuje zdravotné riziká. Ak fajčíte, prestaňte s tým – nielen kvôli sebe, ale aj kvôli svojej rodine a priateľom. Pasívne fajčenie (vdychovanie vzduchu znečisteného fajčiarmi) môže spôsobiť mnohé z tých istých dlhodobých ochorení ako priame fajčenie. Neexistuje žiadna bezpečná úroveň pasívneho fajčenia; aj krátkodobé vystavenie môže byť pre vaše zdravie škodlivé. Ak je to možné, vyhýbajte sa fajčiarom a cigaretovému dymu, kdekoľvek sa dá.
+                </p>
+                <h3 class="article__big-title">5. Obmedzte mastné a sladké jedlá, sladené nápoje a kofeín.</h3>
+                <p>
+                  Ak je to možné, znížte príjem rýchleho občerstvenia, hranolčekov, šišiek, čipsov, hranolčekov a vyprážaných jedál. Nielenže veľmi priberajú (1 polievková lyžica oleja má 120 kalórií), ale vyprážané jedlá obsahujú akrylamid, potenciálne rakovinotvornú chemikáliu. Existujú lepšie alternatívy, ako napríklad grilované, dusené, restované alebo dokonca surové jedlá. Obmedzenie sladkých jedál je tiež lepšie pre vaše zdravie. Patria sem cukríky, tyčinky, pečivo, čokoláda, sušienky, koláče a želé šišky. Nielenže vás nezasýtia, ale kvôli cukrovému návalu spôsobujú, že chcete jesť viac. Dajte si radšej zdravé občerstvenie, ako je ovocie, šaláty, čisté džúsy a nespracované potraviny. Nápoje s kofeínom sú diuretiká, čo znamená, že urýchľujú tvorbu moču. To znamená, že vás nehydratujú tak dobre ako obyčajná voda. Sóda je tiež nezdravá, spôsobuje priberanie na váhe a je umelým stimulantom. Nahraďte sódu vodou alebo zeleninovými šťavami.
+                </p>
+              </div>
+              <div class="article__big-arrows"><a class="article__big-arrow" href=""></a><a class="article__big-arrow article__big-arrow--right" href=""></a></div>
+            </div>
+            <div class="sidebar sidebar--article">
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article-one-2-sidebar.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Ako odmerať porciu<br> Veľkosti pomocou rúk</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article4.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Stručný sprievodca intuitívnym<br> stravovaním</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article5.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Vodná bilancia, význam<br> správnej hydratácie</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article6.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Ako kúpiť to najlepšie<br> Nohavice na jogu</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article-one-6-sidebar.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Tipy na čisté stravovanie<br> Rozpočet</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article8.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Ako byť viac<br> Disciplinovaný</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article9.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">5 wellness trendov, ktoré si zamilujete<br> Uvidíme sa v roku 2019</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article-one-8-1.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Kokosový olej na vlasy, ktoré<br> Žiari</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <!-- FOOTER-->
+      <footer class="footer">
+        <div class="footer__container container"><a class="logo" href=""><img src="img/logo.svg" alt="logo"/></a>
+         <nav class="footer__nav nav">
+             <a class="nav__link" href="">RECEPTY</a>
+             <a class="nav__link" href="">ZDRAVIE A WELLNESS</a>
+             <a class="nav__link" href="">KALKULAČKA</a>
+             <a class="nav__link" href="">KONTAKTUJTE NÁS</a></nav>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__bottom-container container"><a class="footer__bottom-link" href="">Zásady ochrany osobných údajov</a><a class="footer__bottom-link" href="">Obchodné podmienky</a></div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/media.css"/>
+    <link rel="stylesheet" href="css/slick.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Shadows+Into+Light+Two&amp;display=swap"/>
+    <title>Článok jede</title>
+  </head>
+  <body>
+    <div class="page">
+      <!-- HEADER-->
+      <header class="header">
+        <div class="header__container container"><a class="logo" href=""><img src="img/logo.svg" alt="logo"/></a>
+          <nav class="header__nav nav">
+             <a class="nav__link" href="">RECEPTY</a>
+             <a class="nav__link nav__link--active" href="">ZDRAVIE A WELLNESS</a>
+             <a class="nav__link" href="">KALKULAČKA</a>
+             <a class="nav__link" href="">ZRUŠIŤ ČLENSTVO</a>
+          </nav>
+       <button id="login__icon">
+            <img src="./img/profile.png">
+       </button>
+       <!-- THE FORM -->
+        <div id="account__block" >
+            <div id="close__form">+</div>
+         <!-- FORM(loged out state) -->
+            <form class="header__form ">
+              <input class="header__input" type="text" placeholder="User"/>
+              <input class="header__input" type="text" placeholder="Password"/>
+              <button class="header__btn btn" type="submit">Prihlásenie</button>
+            </form>
+
+          <!-- FORM(logged in state) -->
+          <form class="header__profile">
+          <span class="account__username">--</span>
+          <span class="account__credits"><span id="user__credits">--</span> Zostávajúce kredity</span>
+          <button class="">Odhlásiť sa</button>
+           </form>
+        </div>
+              
+         
+        </div>
+      </header>
+      <!-- SLIDER-->
+      <div class="slider-wrap">
+        <div class="slider">
+          <div class="slider__item" style="background-image: url('img/slider4.jpg');">
+            <div class="slider__item-info">
+              <h3 class="slider__title">Kokosový olej na vlasy<br> žiariť</h3>
+              <p class="slider__text">Skroťte poletujúce vlasy, dodajte im lesk a uhlaďte ich pomocou tohto luxusného balzamu. Má jemnú kokosovú vôňu a stačí ho použiť len malé množstvo.</p>
+            </div>
+          </div>
+          <div class="slider__item" style="background-image: url('img/slider5.jpg');">
+           <div class="slider__item-info">
+              <h3 class="slider__title">5 tipov, ako začať nový,<br> zdravý život</h3>
+              <p class="slider__text">Prinášame niekoľko odborných tipov, ako začať<br> a ako dotiahnuť svoje ciele do konca</p>
+            </div>
+          </div>
+          <div class="slider__item" style="background-image: url('img/slider6.jpg');">
+           <div class="slider__item-info">
+              <h3 class="slider__title">Máte naponáhlo?<br> Takto si udržíte zdravie</h3>
+              <p class="slider__text">"Vaše zdravie je dôležité, preto nedovoľte,<br> aby vám nabitý rozvrh zabránil<br> starať sa o seba."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- MAIN-->
+      <main class="main">
+        <div class="container">
+          <h2 class="main__title">Populárne články</h2>
+          <section class="main__section main__section--3">
+            <div class="article__big article__big--one"><img class="article__big-img" src="img/article-one-2-1.jpg" alt="article"/>
+              <div class="article__big-info">
+                <h3 class="article__big-title">Stručný sprievodca intuitívnym stravovaním</h3>
+                <p>
+                  Intuitívne stravovanie je filozofia stravovania, vďaka ktorej sa stávate odborníkom na svoje vlastné telo a jeho signály hladu. V podstate ide o pravý opak tradičnej diéty. Nestanovuje žiadne pravidlá o tom, čomu sa vyhýbať, čo jesť alebo kedy jesť. Namiesto toho vás učí, že práve vy ste tým najlepším – a vlastne jediným – človekom, ktorý môže o týchto veciach rozhodovať. Tento článok je podrobným sprievodcom intuitívnym stravovaním určeným pre začiatočníkov.
+                </p>
+              </div><img class="article__big-img" src="img/article-one-2-2.jpg" alt="article"/>
+              <div class="article__big-info">
+                <h3 class="article__big-title">Základy</h3>
+                <p>
+                  Intuitívne stravovanie je spôsob stravovania, ktorý podporuje zdravý vzťah k jedlu a vnímaniu vlastného tela. Jeho podstata spočíva v tom, že jete, keď ste hladní, a prestávate jesť, keď ste sýti. Hoci by to mal byť prirodzený a intuitívny proces, pre mnohých ľudí to tak nie je. Spoliehanie sa na diétne príručky či takzvaných odborníkov v otázkach toho, čo, kedy a ako jesť, vás môže odviesť od dôvery vo vlastné telo a jeho intuíciu. Ak chcete jesť intuitívne, možno sa budete musieť znova naučiť dôverovať svojmu telu. K tomu je potrebné rozlišovať medzi fyzickým a emocionálnym hladom:
+                </p>
+                <p><b>Fyzický hlad.</b> Tento biologický pud vám hovorí, že treba doplniť živiny. Vzniká postupne a prejavuje sa rôznymi signálmi, ako sú škvŕkanie v žalúdku, únava či podráždenosť. Utiší sa, keď zjete akékoľvek jedlo.<br>
+                  <b>Emocionálny hlad.</b> Je poháňaný emocionálnou potrebou. Smútok, osamelosť a nuda patria medzi pocity, ktoré môžu vyvolať túžbu po jedle – často po takzvanom „utešujúcom“ jedle. Následné jedenie potom vyvoláva pocity viny a nenávisť voči sebe samému.
+                </p>
+                <h3 class="article__big-title">10 kľúčových zásad</h3>
+                <p>Vo svojej knihe o intuitívnom stravovaní Triboleová a Reschová predstavujú 10 základných princípov tejto filozofie.</p>
+                <h3 class="article__big-title">1. Odmietnite diétne zmýšľanie</h3>
+                <p>Mentalita diét je predstava, že existuje diéta, ktorá bude pre vás fungovať. Intuitívne stravovanie je pravým opakom diét.</p>
+                <h3 class="article__big-title">2. Rešpektuj svoj hlad</h3>
+                <p>Hlad nie je váš nepriateľ. Na skoré prejavy hladu reagujte tým, že telu dodáte potravu. Ak dopustíte, aby ste pocítili príliš silný hlad, je pravdepodobné, že sa prejete.</p>
+                <h3 class="article__big-title">3. Uzavrite mier s jedlom</h3>
+                <p>Uzavrite prímerie vo vojne s jedlom. Zbavte sa predstáv o tom, čo by ste mali alebo nemali jesť.</p>
+                <h3 class="article__big-title">4. Postavte sa proti „potravinovej polícii“</h3>
+                <p>Jedlo nie je dobré ani zlé a vy nie ste dobrí ani zlí na základe toho, čo jete alebo nejete. Spochybňujte myšlienky, ktoré vám tvrdia opak.</p>
+                <h3 class="article__big-title">5. Rešpektuj svoj pocit sýtosti</h3>
+                <p>Tak ako vám telo dáva najavo, kedy ste hladní, upozorní vás aj na to, kedy ste sýti. Všímajte si signály príjemného nasýtenia – chvíľu, keď cítite, že už máte dosť. Počas jedenia sa na chvíľu zastavte a zamyslite sa: ako vám jedlo chutí a do akej miery pociťujete hlad alebo sýtosť?</p>
+                <h3 class="article__big-title">6. Objavte faktor spokojnosti</h3>
+                <p>Urobte si z jedenia príjemný zážitok. Doprajte si jedlo, ktoré vám chutí. Pri jedle sa posaďte. Keď premeníte stravovanie na príjemnú záležitosť, možno zistíte, že na zasýtenie vám stačí menej jedla.</p>
+                <h3 class="article__big-title">7. Rešpektujte svoje pocity bez toho, aby ste siahli po jedle</h3>
+                <p>Emocionálne jedenie je stratégia na zvládanie pocitov. Nájdite si spôsoby, ako so svojimi pocitmi narábať bez toho, aby ste siahali po jedle – napríklad choďte na prechádzku, meditujte, píšte si denník alebo zavolajte priateľovi. Uvedomte si situácie, keď pocit, ktorý by ste mohli označiť za hlad, v skutočnosti pramení z emócií.</p>
+                <h3 class="article__big-title">8. Rešpektuj svoje telo</h3>
+                <p>Namiesto toho, aby ste kritizovali svoje telo za to, ako vyzerá a čo na ňom podľa vás nie je v poriadku, vnímajte ho ako schopné a krásne – presne také, aké je.</p>
+                <h3 class="article__big-title">9. Cvičte — pocíťte rozdiel</h3>
+                <p>Nájdite si také spôsoby pohybu, ktoré vás bavia. Presuňte pozornosť z chudnutia na pocit energie, sily a životnej vitality.</p>
+                <h3 class="article__big-title">10. Dbajte o svoje zdravie – šetrná výživa</h3>
+                <p>Jedlo, ktoré konzumujete, by malo dobre chutiť a mali by ste sa po ňom cítiť dobre. Pamätajte, že vaše zdravie formujú celkové stravovacie návyky. Jedno jedlo či desiata vaše zdravie ani nezničia, ani nezachránia.</p>
+                <h3 class="article__big-title">Prínosy podložené výskumom</h3>
+                <p>
+                  Výskum na túto tému stále rastie a zameriava sa prevažne na ženy. Doterajšie štúdie spájajú intuitívne stravovanie so zdravšími psychologickými postojmi, nižším indexom telesnej hmotnosti (BMI) a udržiavaním hmotnosti – hoci nie s úbytkom hmotnosti. Jednou z hlavných výhod intuitívneho stravovania je lepšie psychické zdravie. Účastníci štúdií intuitívneho stravovania si zlepšili sebavedomie, vnímanie tela a celkovú kvalitu života a zároveň pociťovali menej depresií a úzkostí. Intervencie intuitívneho stravovania majú tiež dobrú mieru udržania si, čo znamená, že ľudia s väčšou pravdepodobnosťou vytrvajú v programe a budú naďalej praktizovať zmeny správania, ako by boli pri diéte. Iné štúdie sa zamerali na stravovacie správanie a postoje žien a zistili, že tie, ktoré vykazujú viac známok intuitívneho stravovania, majú menšiu pravdepodobnosť prejavovania porúch stravovacieho správania.
+                </p>
+                <h3 class="article__big-title">ZHRNUTIE</h3>
+                <p>Nové výskumy naznačujú, že intuitívne stravovanie súvisí so zdravším postojom k jedlu a k vnímaniu samého seba, a tiež že sa mu možno naučiť prostredníctvom cielených intervencií.</p>
+              </div>
+              <div class="article__big-arrows"><a class="article__big-arrow" href=""></a><a class="article__big-arrow article__big-arrow--right" href=""></a></div>
+            </div>
+            <div class="sidebar sidebar--article">
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article-one-2-sidebar.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Ako odmerať veľkosť porcií<br> pomocou rúk</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article5.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Vodná bilancia, význam<br> správnej hydratácie</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article6.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Ako kúpiť tie najlepšie<br> nohavice na jogu</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article7.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Tipy na zdravé stravovanie<br> s obmedzeným rozpočtom</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article8.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Ako byť viac<br> Disciplinovaný</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article9.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">5 wellness trendov, ktoré si zamilujete<br> Uvidíme sa v roku 2019</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article2.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Kokosový olej na vlasy, ktoré<br> Žiari</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article3.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">5 tipov, ako začať so<br> zdravým životným štýlom</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <!-- FOOTER-->
+      <footer class="footer">
+        <div class="footer__container container"><a class="logo" href=""><img src="img/logo.svg" alt="logo"/></a>
+         <nav class="footer__nav nav">
+             <a class="nav__link" href="">RECEPTY</a>
+             <a class="nav__link" href="">ZDRAVIE A WELLNESS</a>
+             <a class="nav__link" href="">KALKULAČKA</a>
+             <a class="nav__link" href="">KONTAKTUJTE NÁS</a></nav>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__bottom-container container"><a class="footer__bottom-link" href="">Zásady ochrany osobných údajov</a><a class="footer__bottom-link" href="">Obchodné podmienky</a></div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>

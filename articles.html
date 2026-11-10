@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/media.css"/>
+    <link rel="stylesheet" href="css/slick.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Shadows+Into+Light+Two&amp;display=swap"/>
+    <title>Články</title>
+  </head>
+  <body>
+    <div class="page">
+      <!-- HEADER-->
+           <header class="header">
+        <div class="header__container container"><a class="logo" href=""><img src="img/logo.svg" alt="logo"/></a>
+          <nav class="header__nav nav">
+             <a class="nav__link" href="">RECEPTY</a>
+             <a class="nav__link nav__link--active" href="">ZDRAVIE A WELLNESS</a>
+             <a class="nav__link" href="">KALKULAČKA</a>
+             <a class="nav__link" href="">ZRUŠIŤ ČLENSTVO</a>
+          </nav>
+       <button id="login__icon">
+            <img src="./img/profile.png">
+       </button>
+       <!-- THE FORM -->
+        <div id="account__block" >
+            <div id="close__form">+</div>
+         <!-- FORM(loged out state) -->
+            <form class="header__form ">
+              <input class="header__input" type="text" placeholder="User"/>
+              <input class="header__input" type="text" placeholder="Password"/>
+              <button class="header__btn btn" type="submit">Prihlásenie</button>
+            </form>
+
+          <!-- FORM(logged in state) -->
+          <form class="header__profile">
+          <span class="account__username">--</span>
+          <span class="account__credits"><span id="user__credits">--</span> Zostávajúce kredity</span>
+          <button class="">Odhlásiť sa</button>
+           </form>
+        </div>
+              
+         
+        </div>
+      </header>
+      <!-- SLIDER-->
+      <div class="slider-wrap">
+        <div class="slider">
+          <div class="slider__item" style="background-image: url('img/slider4.jpg');">
+            <div class="slider__item-info">
+              <h3 class="slider__title">Kokosový olej na vlasy<br> žiariť</h3>
+              <p class="slider__text">Skroťte poletujúce vlasy, dodajte im lesk a uhlaďte ich pomocou tohto luxusného balzamu. Má jemnú kokosovú vôňu a stačí ho použiť len malé množstvo.</p>
+            </div>
+          </div>
+          <div class="slider__item" style="background-image: url('img/slider5.jpg');">
+            <div class="slider__item-info">
+              <h3 class="slider__title">5 tipov, ako začať nový,<br> zdravý život</h3>
+              <p class="slider__text">Prinášame niekoľko odborných tipov, ako začať<br> a ako dotiahnuť svoje ciele do konca</p>
+            </div>
+          </div>
+          <div class="slider__item" style="background-image: url('img/slider6.jpg');">
+            <div class="slider__item-info">
+              <h3 class="slider__title">Máte naponáhlo?<br> Takto si udržíte zdravie</h3>
+              <p class="slider__text">"Vaše zdravie je dôležité, preto nedovoľte,<br> aby vám nabitý rozvrh zabránil<br> starať sa o seba."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- MAIN-->
+      <main class="main">
+        <div class="container">
+          <h2 class="main__title">Populárne články</h2>
+          <section class="main__section main__section--2">
+            <div class="article__big">
+              <div class="article__big-img-wrap"><img class="article__big-img" src="img/article-big1.jpg" alt="article"/></div>
+              <div class="article__big-info">
+                <h3 class="article__big-title">Ako odmerať veľkosť porcií pomocou rúk</h3>
+                <p class="article__big-text">Vyvážená strava neznamená len výber správnych druhov potravín, ale aj ich konzumáciu v správnom množstve. Väčšie porcie<br> môžu viesť k nadmernému príjmu potravy, čo následne môže spôsobiť nárast telesnej hmotnosti. Niekedy však môže byť ťažké určiť, čo predstavuje<br> zdravú porciu. Táto infografika ponúka všeobecné tipy, ktoré vám pomôžu získať predstavu o veľkosti porcií rôznych druhov potravín.<br> Majte však na pamäti, že denná energetická potreba človeka závisí aj od jeho veku, telesnej stavby a úrovne fyzickej aktivity.<br> Preto môžu niektorí ľudia potrebovať väčšie alebo menšie porcie, než aké sú tu odporúčané.</p>
+              </div><a class="btn btn--arrow" href="">Prečítať článok</a>
+            </div>
+            <div class="sidebar sidebar--index-2">
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article4.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Stručný sprievodca intuitívnym stravovaním</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article5.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Vodná bilancia, význam správnej hydratácie</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="main__section main__section--2">
+            <div class="article__big">
+              <div class="article__big-img-wrap"><img class="article__big-img" src="img/article2.jpg" alt="article"/></div>
+              <div class="article__big-info">
+                <h3 class="article__big-title">Kokosový olej pre vlasy, ktoré žiaria</h3>
+                <p class="article__big-text">Kokos je už nejaký čas stredobodom pozornosti a mnohé domácnosti, ktoré dbajú na svoje zdravie, majú v špajze aspoň jednu z podôb tohto<br> všestranného plodu. Hoci je veľmi obľúbený ako prísada pri varení, vedeli ste, že kokosový olej možno<br> využiť aj ako prírodný kozmetický prípravok? Mnohí ľudia si jeho účinky nevedia vynachváliť – najmä to, ako vďaka nemu vyzerá a na dotyk pôsobí ich pokožka či vlasy.</p>
+              </div><a class="btn btn--arrow" href="">Prečítať článok</a>
+            </div>
+            <div class="sidebar sidebar--index-2">
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article6.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Ako kúpiť tie najlepšie<br> nohavice na jogu</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article7.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Tipy na zdravé stravovanie<br> s obmedzeným rozpočtom</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="main__section main__section--2">
+            <div class="article__big">
+              <div class="article__big-img-wrap"><img class="article__big-img" src="img/article3.jpg" alt="article"/></div>
+              <div class="article__big-info">
+                <h3 class="article__big-title">5 tipov, ako začať so zdravým životným štýlom</h3>
+                <p class="article__big-text">
+Každý rok sa objavujú nové wellness trendy. Niektoré z nich sa natrvalo stanú súčasťou našich životov (ahoj, quinoa!), zatiaľ čo iné<br> vyskúšame len raz. Tu je niekoľko wellness trendov, s ktorými sa podľa nás v roku 2019 určite stretnete!</p>
+              </div><a class="btn btn--arrow" href="">Prečítať článok</a>
+            </div>
+            <div class="sidebar sidebar--index-2">
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article8.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">Ako byť viac<br> Disciplinovaný</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+              <div class="article__small">
+                <div class="article__small-img-wrap"><img class="article__small-img" src="img/article9.jpg" alt="article"/></div>
+                <div class="article__small-info">
+                  <h3 class="article__small-title">5 wellness trendov, ktoré si zamilujete<br> Uvidíme sa v roku 2019</h3><a class="btn btn--arrow" href="">Prečítať článok</a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <!-- FOOTER-->
+      <footer class="footer">
+        <div class="footer__container container"><a class="logo" href=""><img src="img/logo.svg" alt="logo"/></a>
+          <nav class="footer__nav nav">
+             <a class="nav__link" href="">RECEPTY</a>
+             <a class="nav__link" href="">ZDRAVIE A WELLNESS</a>
+             <a class="nav__link" href="">KALKULAČKA</a>
+             <a class="nav__link" href="">KONTAKTUJTE NÁS</a></nav>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__bottom-container container"><a class="footer__bottom-link" href="">Zásady ochrany osobných údajov</a><a class="footer__bottom-link" href="">Obchodné podmienky</a></div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>
